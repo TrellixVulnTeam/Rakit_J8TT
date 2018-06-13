@@ -1,0 +1,45 @@
+{% include "jobs_app/header.html" %}
+{% load static %}
+<br/><br/><br/><br/><br/><br/>
+{% block content %}
+
+<center>
+    <body>
+        <p>Enter the Stock Symbol you wish to search.</p>
+        <head>
+            <title>Stocks</title>
+            <meta charset="utf-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1" />
+        </head>
+
+        <head>
+            <script>
+                function validateForm() {
+                    var x = document.forms["sumbit_symbol"]["info_name"].value;
+                    if (x == "") {
+                        alert("Please enter a stock symbol");
+                        return false;
+                    }
+                }
+            </script>
+        </head>
+
+        <form name="sumbit_symbol" action="submit" onsubmit="return validateForm()" method="post">{% csrf_token %}
+          {{ form.as_table }}
+
+            <input type="text" name="info_name" placeholder="Enter Stock Symbol" />
+          <input type="submit" value="Submit">
+        </form>
+
+        <p>Yesterdays closing price for {{name}} fetched from {{listed_site}} is : {{close_val}}</p>
+
+        Table
+
+        {% autoescape off %}
+           {{ table }}
+        {% endautoescape %}
+
+    </body>
+</center>
+
+{% endblock %}

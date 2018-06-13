@@ -1,0 +1,27 @@
+{% load static %}
+<html lang="en">
+    <title>Page Not Found</title>
+  <head>
+      <meta charset="utf-8">
+      <!-- Bootstrap core CSS -->
+      <link href="{% static 'vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+      <link href="{% static 'vendor/font-awesome/css/font-awesome.min.css' %}" rel="stylesheet" type="text/css">
+      <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+      <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+      <link href="{% static 'vendor/magnific-popup/magnific-popup.css' %}" rel="stylesheet" type="text/css">
+      <link href="{% static 'css/freelancer.min.css' %}" rel="stylesheet">
+  </head>
+  <header class="masthead bg-warning text-center">
+      <center>
+          <h1 class="font-weight-bold text-danger">Oops!!</h1>
+          <h2 class="font-weight-bold text-danger">SOMETHING WENT WRONG</h2>
+          <a href="http://18.188.219.215/"><h2 class="font-weight-bold text-primary"><u>Click here to go to home page</u></h2></a>
+          <br/><br/><br/><br/>
+          <h3 class="font-weight-bold text-dark">
+              <img src="{% static 'images\cats_fixing.jpg' %}">
+              Moments later....
+              <img src="{% static 'images\dogs_fixing.jpg' %}">
+          </h3>
+      </center>
+  </header>
+</html>
