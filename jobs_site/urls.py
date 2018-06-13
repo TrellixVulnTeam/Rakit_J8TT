@@ -19,11 +19,11 @@ from django.conf.urls import url, handler404, handler500
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    url(r'^$', include('Our_Vision.urls')),
+    url(r'^$', include('jobs_app.urls')),
     url(r'Contact/', include('contact.urls')),
-    url(r'Stocks/', include('jobs_app.urls')),
+    url(r'Home/', include('jobs_app.urls')),
     url(r'Terms_of_Use/', include('Terms_of_Use.urls')),
-    url(r'Home/', include('Our_Vision.urls'))
+    url(r'Our_Vision/', include('Our_Vision.urls'))
 ]
 
 handler404 = 'jobs_app.views.error_404'
