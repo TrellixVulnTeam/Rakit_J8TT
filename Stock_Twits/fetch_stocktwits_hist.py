@@ -41,6 +41,15 @@ def fetch_stock_stream_from_stocktwits(symbol, max_id = None):
                         sys.exit()
                     pass
 
+        df = pd.DataFrame(json.loads(resp.text).get('messages', ''))
+        last_record = df.iloc[-1]
+        print('Time stamp : ', dt.datetime.now(), '--->  last record is: ', last_record['id'])
+        df.to_pickle('./hist/{}_{}_{}.p'.format(symbol, last_record['created_at'][0:19].replace(':', '-'),
+                                                last_record['id']))
+        print(df)
+        temp = df
+        return last_record['id']
+
         #TODO: expand this to be able to fetch using burst, and cycle throught multiple tokens
         # print(resp.headers)
         # print(resp.headers.get('X-RateLimit-Limit',''))
