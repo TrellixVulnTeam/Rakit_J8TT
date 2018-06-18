@@ -10,7 +10,6 @@ starttime = dt.datetime.now()
 API_URL = r'https://api.stocktwits.com/api/2/'
 THROTTLE_REQ_MIN = 180 #sec
 
-
 def fetch_stock_stream_from_stocktwits(symbol, max_id = None):
     print('Fetching data...')
     try:
@@ -35,6 +34,7 @@ def fetch_stock_stream_from_stocktwits(symbol, max_id = None):
                 except:
                     counter = counter + 1
                     print('Time stamp : ', dt.datetime.now(), '--->  Error fetching data counter = ', counter)
+                    time.sleep(THROTTLE_REQ_MIN)
                     if counter >= 3:
                         print('Time stamp : ', dt.datetime.now(), '--->  Counter failed to many times... counter = ', counter)
                         print('Time stamp : ', dt.datetime.now(), '--->  Could not get data.. exiting scrpit')
@@ -61,7 +61,6 @@ def fetch_stock_stream_from_stocktwits(symbol, max_id = None):
 
     print('Current elapsed time:', dt.datetime.now() - starttime)
 
-
 if len(sys.argv) == 2:
     print('Time stamp : ', dt.datetime.now(), '--->  Starting fresh for symbol:',sys.argv[1])
 
@@ -80,11 +79,11 @@ elif len(sys.argv) == 3:
         time.sleep(THROTTLE_REQ_MIN)
         if count == 0:
             max_id = fetch_stock_stream_from_stocktwits(sys.argv[1],sys.argv[2])
-            print('Time stamp : ', dt.datetime.now(), '--->  Inside if line #74 max id', max_id)
+            print('Time stamp : ', dt.datetime.now(), '--->  Inside if line #83 max id', max_id)
             count = count + 1
         else:
             max_id = fetch_stock_stream_from_stocktwits(sys.argv[1], max_id)
-            print('Time stamp : ', dt.datetime.now(), '--->  Inside else line # 78 max id', max_id)
+            print('Time stamp : ', dt.datetime.now(), '--->  Inside else line # 87 max id', max_id)
 
 else:
     print('Invalid argument was provided')
