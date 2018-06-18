@@ -32,14 +32,25 @@
         </form>
 
         <p>Yesterdays closing price for {{name}} fetched from {{listed_site}} is : {{close_val}}</p>
+    </body>
 
-        Table
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"/>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.12/css/dataTables.bootstrap.min.css" rel="stylesheet"/>
 
         {% autoescape off %}
            {{ table }}
         {% endautoescape %}
 
-    </body>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.12/js/jquery.dataTables.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.12/js/dataTables.bootstrap.min.js"></script>
+
+        <script>
+            $(document).ready(function() {
+            $('#example').DataTable();
+            } );
+        </script>
+
 </center>
 
 {% endblock %}

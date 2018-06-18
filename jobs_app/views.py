@@ -35,7 +35,19 @@ def submit(request):
     end = dt.datetime(2018, 2, 1)
     table = stk.get_data(listed_site,start,end)
     if str(type(table)) != "<class 'str'>":
-        table = table.to_html()
+        table = table.to_html(table_id='exmaple', classes='table table-striped table-bordered table-hover')
+        table = table.replace(
+            '<table border="1" class="dataframe table table-striped table-bordered table-hover" id="exmaple">',
+            '<table id="example" class="table table-striped table-bordered table-hover" cellspacing="0" width="100%">')
+        table = table.replace('<th></th>', '<th>Date</th>')
+        table = table.replace("""<tr>
+      <th>Date</th>
+      <th>Date</th>
+      <th>Date</th>
+      <th>Date</th>
+      <th>Date</th>
+      <th>Date</th>
+      <th>Date</th>
+    </tr>""", '')
 
     return render(request, 'jobs_app/index.html', {'name':stock, 'close_val':close_val, 'listed_site':listed_site, 'table': table})
-
