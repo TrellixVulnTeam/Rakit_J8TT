@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="225a3f1f-cc50-452b-85ec-3c482605d2f8" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/Zacks/csv_to_mongo_db.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Zacks/output/2018_06_13_zacks_dividends" beforeDir="false" afterPath="$PROJECT_DIR$/Zacks/output/2018_06_13_zacks_dividends" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Zacks/output/2018_06_13_zacks_earning" beforeDir="false" afterPath="$PROJECT_DIR$/Zacks/output/2018_06_13_zacks_earning" afterDir="false" />
@@ -11,6 +12,8 @@
       <change beforePath="$PROJECT_DIR$/Zacks/output/2018_06_16_zacks_dividends" beforeDir="false" afterPath="$PROJECT_DIR$/Zacks/output/2018_06_16_zacks_dividends" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Zacks/output/2018_06_18_zacks_dividends" beforeDir="false" afterPath="$PROJECT_DIR$/Zacks/output/2018_06_18_zacks_dividends" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Zacks/zacks.py" beforeDir="false" afterPath="$PROJECT_DIR$/Zacks/zacks.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jobs_app/templates/jobs_app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/jobs_app/templates/jobs_app/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jobs_app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/jobs_app/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -30,52 +33,65 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Our_Vision/templates/Our_Vision/home.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Terms_of_Use/templates/Terms_of_Use/home.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test_yahoo.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Unit_tests/test_yahoo.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jobs_app/templates/jobs_app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="29" lean-forward="true" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
+            <state relative-caret-position="416">
+              <caret line="36" column="64" selection-start-line="36" selection-start-column="64" selection-end-line="36" selection-end-column="64" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="zacks.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="zacks.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Zacks/zacks.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="900">
-              <caret line="60" column="37" lean-forward="true" selection-start-line="60" selection-start-column="37" selection-end-line="60" selection-end-column="37" />
+            <state relative-caret-position="368">
+              <caret line="95" column="45" selection-start-line="95" selection-start-column="45" selection-end-line="95" selection-end-column="45" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="process_tweets.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Stock_Twits/process_tweets.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="19" lean-forward="true" selection-start-column="19" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Yahoo_finance.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jobs_app/Yahoo_finance.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-273">
+              <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="36" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/jobs_app/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fetch_stocktwits_hist.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Stock_Twits/fetch_stocktwits_hist.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -92,45 +108,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jobs_app/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
-              <folding>
-                <element signature="e#0#35#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/contact/templates/contact/home.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jobs_app/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="8" column="68" selection-start-line="8" selection-start-column="68" selection-end-line="8" selection-end-column="68" />
-              <folding>
-                <element signature="e#0#32#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -178,21 +162,26 @@
         <option value="$PROJECT_DIR$/jobs_app/templates/jobs_app/500.html" />
         <option value="$PROJECT_DIR$/jobs_app/templates/jobs_app/404.html" />
         <option value="$PROJECT_DIR$/jobs_site/settings.py" />
-        <option value="$PROJECT_DIR$/jobs_app/views.py" />
         <option value="$PROJECT_DIR$/jobs_app/Yahoo_finance.py" />
         <option value="$PROJECT_DIR$/Terms_of_Use/templates/Terms_of_Use/home.html" />
         <option value="$PROJECT_DIR$/contact/templates/contact/home.html" />
         <option value="$PROJECT_DIR$/Our_Vision/templates/Our_Vision/home.html" />
         <option value="$PROJECT_DIR$/jobs_site/urls.py" />
         <option value="$PROJECT_DIR$/jobs_app/templates/jobs_app/header.html" />
-        <option value="$PROJECT_DIR$/jobs_app/templates/jobs_app/index.html" />
+        <option value="$PROJECT_DIR$/Stock_Twits/process_tweets.py" />
+        <option value="$PROJECT_DIR$/Zacks/Earnings" />
+        <option value="$PROJECT_DIR$/Zacks/csv_to_mongo_db.py" />
+        <option value="$PROJECT_DIR$/Zacks/Dividends" />
         <option value="$PROJECT_DIR$/Zacks/zacks.py" />
+        <option value="$PROJECT_DIR$/jobs_app/templates/jobs_app/index.html" />
+        <option value="$PROJECT_DIR$/jobs_app/views.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
     <option name="y" value="23" />
-    <option name="width" value="1440" />
+    <option name="width" value="1616" />
     <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -211,7 +200,7 @@
             <path>
               <item name="Rakit" type="b2602c69:ProjectViewProjectNode" />
               <item name="Rakit" type="462c0819:PsiDirectoryNode" />
-              <item name="Zacks" type="462c0819:PsiDirectoryNode" />
+              <item name="jobs_app" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -227,6 +216,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Stock_Twits" />
       <recent name="C:\Users\Kamal\Desktop\jobs_site\Terms_of_Use\templates\Terms_of_Use" />
       <recent name="C:\Users\Kamal\Desktop\jobs_site\jobs_app\static\images" />
     </key>
@@ -243,7 +233,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.zacks">
+  <component name="RunManager" selected="Python.csv_to_mongo_db">
     <configuration name="Yahoo_finance" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="jobs_site" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -257,6 +247,42 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/jobs_app/Yahoo_finance.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="csv_to_mongo_db" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="jobs_site" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Zacks" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Zacks/csv_to_mongo_db.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="fetch_stocktwits_hist" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="jobs_site" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Stock_Twits" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Stock_Twits/fetch_stocktwits_hist.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -302,10 +328,14 @@
       <item itemvalue="Python.Yahoo_finance" />
       <item itemvalue="Python.views" />
       <item itemvalue="Python.zacks" />
+      <item itemvalue="Python.fetch_stocktwits_hist" />
+      <item itemvalue="Python.csv_to_mongo_db" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.csv_to_mongo_db" />
         <item itemvalue="Python.zacks" />
+        <item itemvalue="Python.fetch_stocktwits_hist" />
         <item itemvalue="Python.Yahoo_finance" />
         <item itemvalue="Python.views" />
       </list>
@@ -322,16 +352,24 @@
       <option name="presentableId" value="Default" />
       <updated>1528134004062</updated>
     </task>
+    <task id="LOCAL-00001" summary="Fixed bug in Zacks where it was printing 'SYMBOL' at exception, df was empty at that point, thus it ran into the exception">
+      <created>1529348948059</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1529348948059</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="877" extended-state="0" />
+    <frame x="-8" y="23" width="1616" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18263888" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16274753" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.42465752" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2777086" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -348,62 +386,37 @@
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2777086" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15260416" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16274753" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.21384929" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4732254" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.328084" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32892057" />
-      <window_info anchor="bottom" id="Python Console" order="10" />
     </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Fixed bug in Zacks where it was printing 'SYMBOL' at exception, df was empty at that point, thus it ran into the exception" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed bug in Zacks where it was printing 'SYMBOL' at exception, df was empty at that point, thus it ran into the exception" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="9" />
+      <option name="time" value="12" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/jobs_site/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jobs_site/wsgi.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Our_Vision/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Our_Vision/admin.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Our_Vision/apps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Our_Vision/models.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Our_Vision/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="39" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Our_Vision/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -517,25 +530,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jobs_app/Yahoo_finance.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2057">
-          <caret line="121" lean-forward="true" selection-start-line="121" selection-end-line="121" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/contact/views.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jobs_app/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/contact/templates/contact/home.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -595,19 +591,91 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jobs_app/templates/jobs_app/index.html">
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pandas/io/parsers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="29" lean-forward="true" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
+        <state relative-caret-position="177">
+          <caret line="1847" selection-start-line="1847" selection-end-line="1847" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pymongo/collection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="2995" selection-start-line="2995" selection-end-line="2995" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Zacks/Earnings">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Zacks/Dividends">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4695">
+          <caret line="313" column="70" selection-start-line="313" selection-start-column="70" selection-end-line="313" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Zacks/csv_to_mongo_db.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="76" selection-start-line="11" selection-start-column="76" selection-end-line="11" selection-end-column="76" />
+          <folding>
+            <element signature="e#22#32#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Zacks/zacks.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="60" column="37" lean-forward="true" selection-start-line="60" selection-start-column="37" selection-end-line="60" selection-end-column="37" />
+        <state relative-caret-position="368">
+          <caret line="95" column="45" selection-start-line="95" selection-start-column="45" selection-end-line="95" selection-end-column="45" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jobs_app/templates/jobs_app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="36" column="64" selection-start-line="36" selection-start-column="64" selection-end-line="36" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Stock_Twits/fetch_stocktwits_hist.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Stock_Twits/process_tweets.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="19" lean-forward="true" selection-start-column="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jobs_app/Yahoo_finance.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-273">
+          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jobs_app/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>

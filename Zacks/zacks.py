@@ -35,6 +35,7 @@ def get_earnings(date):
 
             df['Symbol'] = df['Symbol'].str.extract(r'rel="(.+?)" class', expand=True)
             df['Company'] = df['Company'].str.extract(r'>(.+?)<', expand=True)
+            df['Company'] = df['Company'].str.replace(',','')
             df['ESP'] = df['ESP'].str.extract(r'>(.+?)<', expand=True)
             df['Price_Change'] = df['Price_Change'].str.extract(r'>(.+?)<', expand=True)
             df['Report'] = df['Report'].str.extract(r'>(.+?)<', expand=True)
@@ -68,6 +69,8 @@ def get_dividends(date):
             except:
                 pass
             df['Company'] = df['Company'].str.extract(r'>(.+?)<', expand=True)
+            df['Company'] = df['Company'].str.replace(',', '')
+            df['Current_Price'] = df['Current_Price'].str.replace(',', '')
             df.to_pickle('./output/{}_zacks_dividends'.format(date.strftime('%Y_%m_%d')))
     except Exception as e:
         print(e)
@@ -87,6 +90,8 @@ for date in reversed(date_list):
 df_earnings = pd.concat(list_earnings)
 df_dividends = pd.concat(list_dividends)
 
+df_earnings.to_csv('Earnings', sep='\t', encoding='utf-8')
+df_dividends.to_csv('Dividends', sep='\t', encoding='utf-8')
 print('\n\nEarnings\n', df_earnings.head(15))
 print('\nDividends\n', df_dividends.head(15))
 

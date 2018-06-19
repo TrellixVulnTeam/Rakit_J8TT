@@ -2,11 +2,12 @@ from django.shortcuts import render
 import sys
 import platform
 import datetime as dt
+from datetime import timedelta, date
 env = (platform.system())
 if env == 'Windows':
     sys.path.insert(0, r".\jobs_app")
 elif env == 'Darwin':
-    sys.path.insert(0, r"/Users/madeleinepollock/Downloads/jobs_site-2/jobs_app")
+    sys.path.insert(0, r"/Users/kamalqureshi/Desktop/Work/Rakit/jobs_app")
 else:
     sys.path.insert(0, r"/home/ubuntu/jobs_site/jobs_app")
 import Yahoo_finance
@@ -22,6 +23,51 @@ def error_404(request):
 
 def submit(request):
 
+
+    if '1w' in request.POST:
+        today = date.today()
+        yesterday = today - timedelta(7)
+        start = yesterday
+        end = today
+
+    elif '1m' in request.POST:
+        today = date.today()
+        yesterday = today - timedelta(30)
+        start = yesterday
+        end = today
+
+    elif '3m' in request.POST:
+        today = date.today()
+        yesterday = today - timedelta(90)
+        start = yesterday
+        end = today
+
+    elif '6m' in request.POST:
+        today = date.today()
+        yesterday = today - timedelta(180)
+        start = yesterday
+        end = today
+
+    elif '1y' in request.POST:
+        today = date.today()
+        yesterday = today - timedelta(365)
+        start = yesterday
+        end = today
+
+    elif 'ytd' in request.POST:
+        today = date.today()
+        yesterday = today - timedelta(10000)
+        start = yesterday
+        end = today
+
+    else:
+        today = date.today()
+        yesterday = today - timedelta(1)
+        start = yesterday
+        end = today
+
+
+
     info = request.POST.get('info_name', '')
     stock = info
     stk = Yahoo_finance.Stock(stock)
@@ -31,8 +77,7 @@ def submit(request):
     close_val = close_val.replace(']', '')
     print(close_val)
 
-    start = dt.datetime(2018, 1, 15)
-    end = dt.datetime(2018, 2, 1)
+
     table = stk.get_data(listed_site,start,end)
     if str(type(table)) != "<class 'str'>":
         table = table.to_html(table_id='exmaple', classes='table table-striped table-bordered table-hover')

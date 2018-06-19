@@ -28,7 +28,14 @@
           {{ form.as_table }}
 
             <input type="text" name="info_name" placeholder="Enter Stock Symbol" />
-          <input type="submit" value="Submit">
+            <input type="submit" name="submit" value="Submit">
+            <input type="submit" name="1w" value="1 Week">
+            <input type="submit" name="1m" value="1 Month">
+            <input type="submit" name="3m" value="3 Months">
+            <input type="submit" name="6m" value="6 Months">
+            <input type="submit" name="1y" value="1 Year">
+            <input type="submit" name="ytd" value="Year To Date">
+
         </form>
 
         <p>Yesterdays closing price for {{name}} fetched from {{listed_site}} is : {{close_val}}</p>
