@@ -2,6 +2,8 @@ import requests, json
 import pandas as pd
 import datetime as dt
 import warnings
+import pymongo
+import json
 import sys
 warnings.filterwarnings('ignore')
 pd.set_option('display.width', 1000)
@@ -11,6 +13,8 @@ stop_at_historical = (dt.datetime.now() - stop_at_historical).days
 
 list_earnings = []
 list_dividends = []
+
+
 def get_earnings(date):
     try:
         epoch_date = int((date - dt.datetime(1970, 1, 1)).total_seconds())
@@ -75,6 +79,28 @@ def get_dividends(date):
     except Exception as e:
         print(e)
 
+
+def write_to_db(pickle,db_name,collection_name):
+    mng_client = pymongo.MongoClient('localhost', 27017)
+    mng_db = mng_client[db_name]
+    db_cm = mng_db[collection_name]
+
+    df = pd.read_pickle('/Users/kamalqureshi/Desktop/Work/Rakit/Zacks/output/' + pickle)
+    df.reset_index(inplace=True)
+    df.drop('index', axis=1, inplace=True)
+    df.set_index('Key')
+
+    df_json = json.loads(df.T.to_json()).values()
+
+    for x in df_json:
+        Key = x['Key']
+        # print("x", x)
+        # print('key', Key)
+        db_cm.update({'Key': Key}, x, upsert=True)
+
+    print('Finished Updating', collection_name)
+
+
 current_date = dt.datetime.now().replace(hour=5, minute=0, second=0, microsecond=0)
 epoch_current_date = int((current_date - dt.datetime(1970, 1, 1)).total_seconds())
 print(current_date, epoch_current_date)
@@ -90,11 +116,21 @@ for date in reversed(date_list):
 df_earnings = pd.concat(list_earnings)
 df_dividends = pd.concat(list_dividends)
 
-df_earnings.to_csv('Earnings', sep='\t', encoding='utf-8')
-df_dividends.to_csv('Dividends', sep='\t', encoding='utf-8')
-print('\n\nEarnings\n', df_earnings.head(15))
-print('\nDividends\n', df_dividends.head(15))
+date_temp = date.strftime('%Y_%m_%d')
+df_earnings['Key'] = df_earnings['Symbol'] + '_' + df_earnings['Type'] + '_' + str(date_temp)
+df_dividends['Key'] = df_dividends['Symbol'] + '_' + df_dividends['Type'] + '_' + str(date_temp)
 
+
+#output consolidated into pickle
+df_earnings.to_pickle('./output/zacks_earnings_master')
+df_dividends.to_pickle('./output/zacks_dividends_master')
+
+#Updates Mongo DB
+write_to_db('zacks_earnings_master','ZACKS','ZACKS_earnings')
+write_to_db('zacks_dividends_master', 'ZACKS', 'ZACKS_dividends')
+
+# print('\n\nEarnings\n', df_earnings.head(15))
+# print('\nDividends\n', df_dividends.head(15))
 
 zacks_filestring = '{}'.format(dt.datetime.today().strftime("%m_%d_%Y"))
 
