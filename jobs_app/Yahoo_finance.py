@@ -95,6 +95,7 @@ class Stock:
 # ax.legend(loc='upper left')
 # plt.show()
 
+
 # daily_returns = stk.compute_daily_returns(data)
 #ax = daily_returns.plot(title="Daily returns", label=stock_name)
 # ax.set_xlabel("Date")
@@ -138,3 +139,4 @@ class Stock:
 
 # data = stk.yesterday_closing_val(listed_site)
 #print (data)
+

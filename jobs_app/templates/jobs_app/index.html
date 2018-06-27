@@ -1,11 +1,22 @@
 {% include "jobs_app/header.html" %}
 {% load static %}
+
 <br/><br/><br/><br/><br/><br/>
 {% block content %}
 
+<link href="//cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+<link href="//cdn.bootcss.com/bootstrap-datetimepicker/4.17.44/css/bootstrap-datetimepicker.min.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.12/css/dataTables.bootstrap.min.css" rel="stylesheet"/>
+<script src="//cdn.bootcss.com/jquery/3.0.0/jquery.min.js"></script>
+<script src="//cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="//cdn.bootcss.com/moment.js/2.17.1/moment.min.js"></script>
+<script src="//cdn.bootcss.com/bootstrap-datetimepicker/4.17.44/js/bootstrap-datetimepicker.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.12/js/dataTables.bootstrap.min.js"></script>
+
 <center>
-    <body>
-        <p>Enter the Stock Symbol you wish to search.</p>
+
+    <p>Enter the Stock Symbol you wish to search.</p>
         <head>
             <title>Home</title>
             <meta charset="utf-8" />
@@ -20,6 +31,16 @@
                         alert("Please enter a stock symbol");
                         return false;
                     }
+                    <!--var y = document.forms["sumbit_symbol"]["dp6"].value;-->
+                    <!--if (y == "") {-->
+                        <!--alert("Please enter a Valid Start Date");-->
+                        <!--return false;-->
+                    <!--}-->
+                    <!--var z = document.forms["sumbit_symbol"]["dp7"].value;-->
+                    <!--if (z == "") {-->
+                        <!--alert("Please enter a Valid End Date");-->
+                        <!--return false;-->
+                    <!--}-->
                 }
             </script>
         </head>
@@ -28,29 +49,61 @@
           {{ form.as_table }}
 
             <input type="text" name="info_name" placeholder="Enter Stock Symbol" />
-            <input type="submit" name="submit" value="Submit">
             <input type="submit" name="1w" value="1 Week">
             <input type="submit" name="1m" value="1 Month">
             <input type="submit" name="3m" value="3 Months">
             <input type="submit" name="6m" value="6 Months">
             <input type="submit" name="1y" value="1 Year">
-            <input type="submit" name="ytd" value="Year To Date">
+            <input type="submit" name="max" value="Max">
+            <br><br>
 
+            <div class="container">
+                <div class='col-md-5'>
+                    <div class="form-group">
+                        Start
+                        <div class='input-group date' id='datetimepicker6'>
+                            <input type='text' name="dp6" class="form-control" />
+                            <span class="input-group-addon">
+                                <span class="glyphicon glyphicon-calendar"></span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class='col-md-5'>
+                    <div class="form-group">
+                        End
+                        <div class='input-group date' id='datetimepicker7'>
+                            <input type='text' name="dp7" class="form-control" />
+                            <span class="input-group-addon">
+                                <span class="glyphicon glyphicon-calendar"></span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <input type="submit" name="submit" value="Submit">
         </form>
 
-        <p>Yesterdays closing price for {{name}} fetched from {{listed_site}} is : {{close_val}}</p>
-    </body>
+            <script type="text/javascript">
+                   $(function () {
+                       $('#datetimepicker6').datetimepicker();
+                       $('#datetimepicker7').datetimepicker({
+                           useCurrent: false //Important! See issue #1075
+                       });
+                       $("#datetimepicker7").on("dp.change", function (e) {
+                           $('#datetimepicker6').data("DateTimePicker").minDate(e.date);
+                       });
+                       $("#datetimepicker6").on("dp.change", function (e) {
+                           $('#datetimepicker7').data("DateTimePicker").maxDate(e.date);
+                       });
+                   });
+            </script>
 
-        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"/>
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.12/css/dataTables.bootstrap.min.css" rel="stylesheet"/>
+
 
         {% autoescape off %}
            {{ table }}
         {% endautoescape %}
-
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.12/js/jquery.dataTables.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.12/js/dataTables.bootstrap.min.js"></script>
 
         <script>
             $(document).ready(function() {
@@ -58,6 +111,39 @@
             } );
         </script>
 
+    <img src="{% static 'images\Bands.png' %}">
+
+
+<br><br><br>
+    <p>Earnings From Zacks</p>
+
+    {% autoescape off %}
+        {{ Earnings }}
+    {% endautoescape %}
+
+    <script>
+        $(document).ready(function() {
+        $('#df_earnings').DataTable();
+        } );
+    </script>
+
+    <br><br><br>
+
+    <p>Dividends From Zacks</p>
+
+    {% autoescape off %}
+        {{ Dividends }}
+    {% endautoescape %}
+
+    <script>
+        $(document).ready(function() {
+        $('#df_dividends').DataTable();
+        } );
+    </script>
+
+    <br><br><br>
+
 </center>
+
 
 {% endblock %}

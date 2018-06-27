@@ -8,7 +8,8 @@ import sys
 warnings.filterwarnings('ignore')
 pd.set_option('display.width', 1000)
 
-stop_at_historical = dt.datetime(2018,6,12)  #I am seeing 'Symbol' being printed on exception/console...investiage
+stop_at_historical = dt.datetime(2016,1,1)
+# stop_at_historical = dt.datetime(2018,1,1)
 stop_at_historical = (dt.datetime.now() - stop_at_historical).days
 
 list_earnings = []
@@ -28,7 +29,6 @@ def get_earnings(date):
             df = pd.DataFrame(data['data'])
             df['Datetime'] = date
             df['Type'] = 'Earnings'
-            list_earnings.append(df)
             df.rename_axis(
                 {0: 'Symbol', 1: 'Company', 2: 'Mrk_Cap(M)', 3: 'Time', 4: 'Estimate', 5: 'Reported', 6: 'ESP',
                  7: 'Price_Change',
@@ -45,7 +45,11 @@ def get_earnings(date):
             df['Report'] = df['Report'].str.extract(r'>(.+?)<', expand=True)
             df['ESP'] = df['ESP'].str.strip()
             df['Price_Change'] = df['Price_Change'].str.strip()
+            time_stamp = date.strftime("%m_%d_%Y")
+            df['Key'] = df['Symbol'] + '_' + df['Type'] + '_' + str(time_stamp)
             df.to_pickle('./output/{}_zacks_earning'.format(date.strftime('%Y_%m_%d')))
+            list_earnings.append(df)
+
     except Exception as e:
         print(e)
 
@@ -62,9 +66,6 @@ def get_dividends(date):
             df = pd.DataFrame(data['data'])
             df['Datetime'] = date
             df['Type'] = 'Dividends'
-            # print(df)
-            list_dividends.append(df)
-
             df.rename_axis(
                 {0: 'Symbol', 1: 'Company', 2: 'Mrk_Cap(M)', 3: 'Amount', 4: 'Yield', 5: 'Ex-Div Date', 6: 'Current_Price',
                  7: 'Payable_Date'}, axis='columns', inplace=True)
@@ -75,7 +76,11 @@ def get_dividends(date):
             df['Company'] = df['Company'].str.extract(r'>(.+?)<', expand=True)
             df['Company'] = df['Company'].str.replace(',', '')
             df['Current_Price'] = df['Current_Price'].str.replace(',', '')
+            time_stamp = date.strftime("%m_%d_%Y")
+            df['Key'] = df['Symbol'] + '_' + df['Type'] + '_' + str(time_stamp)
             df.to_pickle('./output/{}_zacks_dividends'.format(date.strftime('%Y_%m_%d')))
+            list_dividends.append(df)
+
     except Exception as e:
         print(e)
 
@@ -105,7 +110,9 @@ current_date = dt.datetime.now().replace(hour=5, minute=0, second=0, microsecond
 epoch_current_date = int((current_date - dt.datetime(1970, 1, 1)).total_seconds())
 print(current_date, epoch_current_date)
 date_list = [current_date - dt.timedelta(days=x) for x in range(0, stop_at_historical)]
-# print(date_list)
+
+df_earnings = pd.DataFrame
+df_dividends = pd.DataFrame
 
 print('Fetching Earning and Dividend releases for:')
 for date in reversed(date_list):
@@ -116,11 +123,6 @@ for date in reversed(date_list):
 df_earnings = pd.concat(list_earnings)
 df_dividends = pd.concat(list_dividends)
 
-date_temp = date.strftime('%Y_%m_%d')
-df_earnings['Key'] = df_earnings['Symbol'] + '_' + df_earnings['Type'] + '_' + str(date_temp)
-df_dividends['Key'] = df_dividends['Symbol'] + '_' + df_dividends['Type'] + '_' + str(date_temp)
-
-
 #output consolidated into pickle
 df_earnings.to_pickle('./output/zacks_earnings_master')
 df_dividends.to_pickle('./output/zacks_dividends_master')
@@ -129,9 +131,5 @@ df_dividends.to_pickle('./output/zacks_dividends_master')
 write_to_db('zacks_earnings_master','ZACKS','ZACKS_earnings')
 write_to_db('zacks_dividends_master', 'ZACKS', 'ZACKS_dividends')
 
-# print('\n\nEarnings\n', df_earnings.head(15))
-# print('\nDividends\n', df_dividends.head(15))
-
 zacks_filestring = '{}'.format(dt.datetime.today().strftime("%m_%d_%Y"))
-
 zacks_endtime = dt.datetime.now()
