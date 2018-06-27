@@ -126,6 +126,7 @@ df_dividends = pd.concat(list_dividends)
 #output consolidated into pickle
 df_earnings.to_pickle('./output/zacks_earnings_master')
 df_dividends.to_pickle('./output/zacks_dividends_master')
+print('Finished pickling the Data')
 
 #Updates Mongo DB
 write_to_db('zacks_earnings_master','ZACKS','ZACKS_earnings')
