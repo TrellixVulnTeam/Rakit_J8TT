@@ -19,6 +19,8 @@ elif env == 'Darwin':
 else:
     sys.path.insert(0, r"/home/ubuntu/jobs_site/jobs_app")
 import Yahoo_finance
+import tweets_analysis
+import zacks_analysis
 
 # Create your views here.
 
@@ -135,37 +137,13 @@ class Stock_Page(TemplateView):
             plt.savefig('/Users/kamalqureshi/Desktop/Work/Rakit/jobs_app/static/images/Bands.png', format='png')
             plt.close()
 
-            # For Earnings
-            client = MongoClient('localhost', 27017)
-            db = client['ZACKS']
-            collection_name = 'ZACKS_earnings'
-            db_cm = db[collection_name]
-            Earnings = db_cm.find({'Symbol': stock})
+            df_earnings = zacks_analysis.create_zacks_df(stock, 'ZACKS_earnings', 'df_earnings')
+            df_dividends = zacks_analysis.create_zacks_df(stock,'ZACKS_dividends', 'df_dividends')
 
-            # Convert Dictionary to dataframe and then convert to html table
-            list_earnings = []
+            twitter_table = tweets_analysis.create_twitter_data_table(stock)
 
-            for post in Earnings:
-                list_earnings.append(post)
+            return render(request, 'jobs_app/index.html',
+                          {'table': table2, 'Earnings': df_earnings, 'Dividends': df_dividends,
+                           'twitter_table': twitter_table})
 
-            df_earnings = pd.DataFrame(list_earnings)
-            df_earnings = df_earnings.to_html()
-            df_earnings = df_earnings.replace('<table border="1" class="dataframe">','<table id="df_earnings" class="table table-striped table-bordered table-hover" cellspacing="0" width="100%">')
-
-            # For Dividends
-            collection_name = 'ZACKS_dividends'
-            db_cm = db[collection_name]
-            Dividends = db_cm.find({'Symbol': stock})
-
-            list_dividends = []
-
-            for post2 in Dividends:
-                list_dividends.append(post2)
-
-            # Convert Dictionary to dataframe and then convert to html table
-            df_dividends = pd.DataFrame(list_dividends)
-            df_dividends = df_dividends.to_html()
-            df_dividends = df_dividends.replace('<table border="1" class="dataframe">','<table id="df_dividends" class="table table-striped table-bordered table-hover" cellspacing="0" width="100%">')
-
-
-        return render(request, 'jobs_app/index.html', {'table': table2, 'Earnings': df_earnings, 'Dividends': df_dividends})
+        return render(request, 'jobs_app/index.html')
