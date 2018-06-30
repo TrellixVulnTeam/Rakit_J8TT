@@ -99,15 +99,13 @@
                    });
             </script>
 
-
-
         {% autoescape off %}
            {{ table }}
         {% endautoescape %}
 
         <script>
             $(document).ready(function() {
-            $('#example').DataTable();
+            $('#data').DataTable();
             } );
         </script>
 
@@ -142,6 +140,18 @@
     </script>
 
     <br><br><br>
+
+    <p>Twitter Data</p>
+
+    {% autoescape off %}
+        {{ twitter_table }}
+    {% endautoescape %}
+
+    <script>
+        $(document).ready(function() {
+        $('#twitter_table').DataTable();
+        } );
+    </script>
 
 </center>
 

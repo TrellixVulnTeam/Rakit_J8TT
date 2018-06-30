@@ -1,22 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="225a3f1f-cc50-452b-85ec-3c482605d2f8" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="225a3f1f-cc50-452b-85ec-3c482605d2f8" name="Default" comment="Update for Zacks - added print statement after it pickles the Data">
+      <change afterPath="$PROJECT_DIR$/jobs_app/graph_analysis.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Zacks/csv_to_mongo_db.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Zacks/output/2018_06_13_zacks_dividends" beforeDir="false" afterPath="$PROJECT_DIR$/Zacks/output/2018_06_13_zacks_dividends" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Zacks/output/2018_06_13_zacks_earning" beforeDir="false" afterPath="$PROJECT_DIR$/Zacks/output/2018_06_13_zacks_earning" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Zacks/output/2018_06_14_zacks_dividends" beforeDir="false" afterPath="$PROJECT_DIR$/Zacks/output/2018_06_14_zacks_dividends" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Zacks/output/2018_06_14_zacks_earning" beforeDir="false" afterPath="$PROJECT_DIR$/Zacks/output/2018_06_14_zacks_earning" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Zacks/output/2018_06_15_zacks_dividends" beforeDir="false" afterPath="$PROJECT_DIR$/Zacks/output/2018_06_15_zacks_dividends" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Zacks/output/2018_06_16_zacks_dividends" beforeDir="false" afterPath="$PROJECT_DIR$/Zacks/output/2018_06_16_zacks_dividends" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Zacks/output/2018_06_18_zacks_dividends" beforeDir="false" afterPath="$PROJECT_DIR$/Zacks/output/2018_06_18_zacks_dividends" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Zacks/zacks.py" beforeDir="false" afterPath="$PROJECT_DIR$/Zacks/zacks.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact/templates/contact/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact/templates/contact/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jobs_app/Yahoo_finance.py" beforeDir="false" afterPath="$PROJECT_DIR$/jobs_app/Yahoo_finance.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jobs_app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/jobs_app/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stock_Twits/process_tweets.py" beforeDir="false" afterPath="$PROJECT_DIR$/Stock_Twits/process_tweets.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Zacks/zacks.py" beforeDir="false" afterPath="$PROJECT_DIR$/Zacks/fetch_zacks_and_update_db.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jobs_app/templates/jobs_app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/jobs_app/templates/jobs_app/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jobs_app/tweets_analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/jobs_app/tweets_analysis.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jobs_app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/jobs_app/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,13 +19,74 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="zacks.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Zacks/zacks.py">
+      <file leaf-file-name="fetch_zacks_and_update_db.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Zacks/fetch_zacks_and_update_db.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="122" column="8" selection-start-line="122" selection-start-column="8" selection-end-line="122" selection-end-column="8" />
+            <state relative-caret-position="165">
+              <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="process_tweets.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Stock_Twits/process_tweets.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jobs_app/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="5" selection-end-column="19" />
+              <folding>
+                <element signature="e#1#46#0" expanded="true" />
+                <marker date="1530325017824" expanded="true" signature="2177:2220" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="graph_analysis.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jobs_app/graph_analysis.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="zacks_analysis.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jobs_app/zacks_analysis.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+              <folding>
+                <element signature="e#1#20#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tweets_analysis.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/jobs_app/tweets_analysis.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+              <folding>
+                <element signature="e#1#20#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -43,19 +95,28 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jobs_app/templates/jobs_app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="113" column="41" selection-start-line="113" selection-start-column="41" selection-end-line="113" selection-end-column="41" />
+            <state relative-caret-position="224">
+              <caret line="107" column="20" selection-start-line="107" selection-start-column="20" selection-end-line="107" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/jobs_app/views.py">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jobs_site/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="409">
-              <caret line="162" column="44" lean-forward="true" selection-start-line="162" selection-start-column="44" selection-end-line="162" selection-end-column="44" />
+            <state relative-caret-position="555">
+              <caret line="37" column="4" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jobs_app/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
               <folding>
-                <element signature="e#0#35#0" expanded="true" />
+                <element signature="e#0#32#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -88,10 +149,15 @@
       <find>color</find>
       <find>bg</find>
       <find>list_earnings</find>
+      <find>CIBC</find>
+      <find>BMO</find>
     </findStrings>
     <replaceStrings>
       <replace />
     </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/Twitter_Data/BMO</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -115,23 +181,27 @@
         <option value="$PROJECT_DIR$/Terms_of_Use/views.py" />
         <option value="$PROJECT_DIR$/jobs_app/templates/jobs_app/500.html" />
         <option value="$PROJECT_DIR$/jobs_app/templates/jobs_app/404.html" />
-        <option value="$PROJECT_DIR$/jobs_site/settings.py" />
         <option value="$PROJECT_DIR$/Terms_of_Use/templates/Terms_of_Use/home.html" />
         <option value="$PROJECT_DIR$/Our_Vision/templates/Our_Vision/home.html" />
         <option value="$PROJECT_DIR$/jobs_site/urls.py" />
         <option value="$PROJECT_DIR$/jobs_app/templates/jobs_app/header.html" />
-        <option value="$PROJECT_DIR$/Stock_Twits/process_tweets.py" />
         <option value="$PROJECT_DIR$/Zacks/Earnings" />
         <option value="$PROJECT_DIR$/jobs_app/models.py" />
         <option value="$PROJECT_DIR$/contact/views.py" />
         <option value="$PROJECT_DIR$/contact/templates/contact/home.html" />
         <option value="$PROJECT_DIR$/jobs_app/Yahoo_finance.py" />
         <option value="$PROJECT_DIR$/Zacks/Dividends" />
-        <option value="$PROJECT_DIR$/jobs_app/urls.py" />
         <option value="$PROJECT_DIR$/Zacks/csv_to_mongo_db.py" />
-        <option value="$PROJECT_DIR$/jobs_app/templates/jobs_app/index.html" />
         <option value="$PROJECT_DIR$/Zacks/zacks.py" />
+        <option value="$PROJECT_DIR$/jobs_app/urls.py" />
+        <option value="$PROJECT_DIR$/jobs_site/settings.py" />
+        <option value="$PROJECT_DIR$/Stock_Twits/tweets_analysis.py" />
+        <option value="$PROJECT_DIR$/Stock_Twits/process_tweets.py" />
+        <option value="$PROJECT_DIR$/jobs_app/zacks_analysis.py" />
+        <option value="$PROJECT_DIR$/jobs_app/templates/jobs_app/index.html" />
         <option value="$PROJECT_DIR$/jobs_app/views.py" />
+        <option value="$PROJECT_DIR$/jobs_app/graph_analysis.py" />
+        <option value="$PROJECT_DIR$/jobs_app/tweets_analysis.py" />
       </list>
     </option>
   </component>
@@ -181,9 +251,7 @@
             <path>
               <item name="Rakit" type="b2602c69:ProjectViewProjectNode" />
               <item name="Rakit" type="462c0819:PsiDirectoryNode" />
-              <item name="jobs_app" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="jobs_app" type="462c0819:PsiDirectoryNode" />
+              <item name="Stock_Twits" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Rakit" type="b2602c69:ProjectViewProjectNode" />
@@ -204,6 +272,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/jobs_app" />
       <recent name="$PROJECT_DIR$/Stock_Twits" />
       <recent name="C:\Users\Kamal\Desktop\jobs_site\Terms_of_Use\templates\Terms_of_Use" />
       <recent name="C:\Users\Kamal\Desktop\jobs_site\jobs_app\static\images" />
@@ -221,8 +290,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.zacks">
-    <configuration name="Yahoo_finance" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.graph_analysis">
+    <configuration name="common" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="jobs_site" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pandas/io" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pandas/io/common.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="graph_analysis" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="jobs_site" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -234,31 +321,13 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/jobs_app/Yahoo_finance.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/jobs_app/graph_analysis.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="csv_to_mongo_db" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="jobs_site" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Zacks" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Zacks/csv_to_mongo_db.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="fetch_stocktwits_hist" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="process_tweets" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="jobs_site" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -270,13 +339,13 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Stock_Twits/fetch_stocktwits_hist.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Stock_Twits/process_tweets.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="views (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="tweets_analysis" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="jobs_site" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -284,17 +353,17 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/contact" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Stock_Twits" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/contact/views.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/jobs_app/tweets_analysis.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="zacks" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="zacks_analysis" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="jobs_site" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -302,30 +371,30 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Zacks" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/jobs_app" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Zacks/zacks.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/jobs_app/zacks_analysis.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.Yahoo_finance" />
-      <item itemvalue="Python.zacks" />
-      <item itemvalue="Python.fetch_stocktwits_hist" />
-      <item itemvalue="Python.csv_to_mongo_db" />
-      <item itemvalue="Python.views (1)" />
+      <item itemvalue="Python.process_tweets" />
+      <item itemvalue="Python.common" />
+      <item itemvalue="Python.tweets_analysis" />
+      <item itemvalue="Python.zacks_analysis" />
+      <item itemvalue="Python.graph_analysis" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.zacks" />
-        <item itemvalue="Python.csv_to_mongo_db" />
-        <item itemvalue="Python.views (1)" />
-        <item itemvalue="Python.fetch_stocktwits_hist" />
-        <item itemvalue="Python.Yahoo_finance" />
+        <item itemvalue="Python.graph_analysis" />
+        <item itemvalue="Python.zacks_analysis" />
+        <item itemvalue="Python.tweets_analysis" />
+        <item itemvalue="Python.process_tweets" />
+        <item itemvalue="Python.common" />
       </list>
     </recent_temporary>
   </component>
@@ -361,7 +430,42 @@
       <option name="project" value="LOCAL" />
       <updated>1530036271076</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Update for Zacks - each entry has unique key&#10;Update for front end to display Zacks table with multiple entries">
+      <created>1530114737143</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1530114737143</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Update for Zacks - added print statement after it pickles the Data">
+      <created>1530114871556</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1530114871556</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Updated proccess_tweets, it consolidated all data given a symbol, and then writes the data into a mongoDB">
+      <created>1530286830598</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1530286830598</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Update - completed monthly analysis of twitter data, returns a bootstrapped table on a per monthly base twitter analysis given a stock symbol. Provided that the stock symbol exits inside Twitter_data db (local pymongo database)">
+      <created>1530321800152</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1530321800152</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Update for Twitter analysis, front-end now it displays a table with a monthly breakdown of bearish, bullish and bull tweets. Provided a stock symbol">
+      <created>1530323244871</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1530323244871</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TodoView" selected-index="3">
@@ -377,10 +481,11 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4981685" visible="true" weight="0.10570825" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4981685" visible="true" weight="0.18675123" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32848486" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3212121" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3260606" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32848486" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32848486" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.35636362" />
       <window_info id="Structure" order="1" sideWeight="0.50183153" side_tool="true" weight="0.24242425" />
@@ -392,27 +497,26 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3260606" />
       <window_info anchor="bottom" id="Message" order="0" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4981685" weight="0.286117" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32848486" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4981685" visible="true" weight="0.18675123" />
       <window_info id="Structure" order="1" sideWeight="0.50183153" side_tool="true" weight="0.24242425" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32948717" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32848486" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.35636362" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3260606" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.47272727" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32848486" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.35636362" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.47272727" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32848486" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32848486" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3260606" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32848486" />
     </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -422,44 +526,19 @@
     <MESSAGE value="Fixed bug in Zacks where it was printing 'SYMBOL' at exception, df was empty at that point, thus it ran into the exception" />
     <MESSAGE value="new: CSV TO MONGO DB file&#10;added buttons for 1 week, 1 month, 3 months, 6 months , 1 Year and Year to Date&#10;hooked up back end functions with front end buttons" />
     <MESSAGE value="Update for zacks, now it updates a Loacl DB with new data" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update for zacks, now it updates a Loacl DB with new data" />
+    <MESSAGE value="Update for Zacks - each entry has unique key&#10;Update for front end to display Zacks table with multiple entries" />
+    <MESSAGE value="Update for Zacks - added print statement after it pickles the Data" />
+    <MESSAGE value="Updated proccess_tweets, it consolidated all data given a symbol, and then writes the data into a mongoDB" />
+    <MESSAGE value="Update - completed monthly analysis of twitter data, returns a bootstrapped table on a per monthly base twitter analysis given a stock symbol. Provided that the stock symbol exits inside Twitter_data db (local pymongo database)" />
+    <MESSAGE value="Update for Twitter analysis, front-end now it displays a table with a monthly breakdown of bearish, bullish and bull tweets. Provided a stock symbol" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update for Twitter analysis, front-end now it displays a table with a monthly breakdown of bearish, bullish and bull tweets. Provided a stock symbol" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="18" />
+      <option name="time" value="21" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/jobs_app/static/css/freelancer.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jobs_app/static/vendor/font-awesome/css/font-awesome.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1649" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jobs_app/static/vendor/font-awesome/css/font-awesome.css.map">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jobs_app/static/vendor/font-awesome/css/font-awesome.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../startbootstrap-freelancer-gh-pages/startbootstrap-freelancer-gh-pages/index.html" />
-    <entry file="file://$PROJECT_DIR$/jobs_app/templates/jobs_app/500.html" />
-    <entry file="file://$PROJECT_DIR$/jobs_app/static/vendor/bootstrap/css/bootstrap.min.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jobs_app/static/vendor/bootstrap/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="633">
-          <caret line="6109" column="3" lean-forward="true" selection-start-line="6109" selection-start-column="3" selection-end-line="6109" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jobs_app/templates/jobs_app/404.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
@@ -471,13 +550,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="305">
           <caret line="64" column="26" selection-start-line="64" selection-start-column="26" selection-end-line="64" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jobs_site/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -535,13 +607,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/graph" />
-    <entry file="file://$PROJECT_DIR$/jobs_site/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/contact/urls.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -549,13 +614,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Stock_Twits/process_tweets.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -587,13 +645,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jobs_app/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Zacks/csv_to_mongo_db.py" />
     <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pandas/core/indexes/base.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -613,6 +664,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-178">
           <caret line="41" column="55" selection-start-line="41" selection-start-column="55" selection-end-line="41" selection-end-column="55" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -682,29 +736,124 @@
     <entry file="file://$PROJECT_DIR$/Zacks/output/zacks_earnings_master">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/jobs_app/templates/jobs_app/index.html">
+    <entry file="file://$PROJECT_DIR$/jobs_site/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="113" column="41" selection-start-line="113" selection-start-column="41" selection-end-line="113" selection-end-column="41" />
+        <state relative-caret-position="345">
+          <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+          <folding>
+            <element signature="e#633#665#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Zacks/zacks.py">
+    <entry file="file://$PROJECT_DIR$/jobs_site/settings.py.20180601">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pandas/io/pickle.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="122" column="8" selection-start-line="122" selection-start-column="8" selection-end-line="122" selection-end-column="8" />
+        <state relative-caret-position="66">
+          <caret line="139" selection-start-line="139" selection-end-line="139" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pandas/io/common.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="601">
+          <caret line="405" selection-start-line="405" selection-end-line="405" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharmCE2018.1/python_stubs/-1199943127/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="477" column="4" selection-start-line="477" selection-start-column="4" selection-end-line="477" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jobs_app/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jobs_site/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="4" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Zacks/fetch_zacks_and_update_db.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Stock_Twits/process_tweets.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jobs_app/templates/jobs_app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="107" column="20" selection-start-line="107" selection-start-column="20" selection-end-line="107" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jobs_app/static/images/Bands.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/jobs_app/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="162" column="44" lean-forward="true" selection-start-line="162" selection-start-column="44" selection-end-line="162" selection-end-column="44" />
+        <state>
+          <caret selection-end-line="5" selection-end-column="19" />
           <folding>
-            <element signature="e#0#35#0" expanded="true" />
+            <element signature="e#1#46#0" expanded="true" />
+            <marker date="1530325017824" expanded="true" signature="2177:2220" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jobs_app/graph_analysis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jobs_app/zacks_analysis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+          <folding>
+            <element signature="e#1#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jobs_app/tweets_analysis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+          <folding>
+            <element signature="e#1#20#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -8,11 +8,10 @@ import pymongo
 import json
 import sys
 
-key_symbol = 'Scotia'
+key_symbol = 'DIS'
 
 symbol_dict = defaultdict(list)
 for root, dirs, files in os.walk('/Users/kamalqureshi/Desktop/Work/Rakit/Twitter_Data/' + key_symbol):
-    # count = 0
     for f in files:
         if '.p' in f:
             symbol = f.split('_')[0]

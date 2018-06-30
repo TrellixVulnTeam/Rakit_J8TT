@@ -8,9 +8,9 @@ def create_twitter_data_table(stock_symbol):
     client = MongoClient('localhost', 27017)
     db = client['Twitter_data']
     db_cm = db[stock_symbol]
-    cursor_bullish = db_cm.find({'sentiments': 'Bullish'}).sort('created_at', pymongo.ASCENDING)
-    cursor_bearish = db_cm.find({'sentiments': 'Bearish'}).sort('created_at', pymongo.ASCENDING)
-    cursor_null = db_cm.find({'sentiments': None}).sort('created_at', pymongo.ASCENDING)
+    cursor_bullish = db_cm.find({'sentiments': 'Bullish'}).sort('created_at', pymongo.DESCENDING)
+    cursor_bearish = db_cm.find({'sentiments': 'Bearish'}).sort('created_at', pymongo.DESCENDING)
+    cursor_null = db_cm.find({'sentiments': None}).sort('created_at', pymongo.DESCENDING)
 
 
     def create_df (cursor,occurrence):
