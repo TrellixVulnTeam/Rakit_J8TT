@@ -1,14 +1,1179 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="225a3f1f-cc50-452b-85ec-3c482605d2f8" name="Default" comment="Update for Zacks - added print statement after it pickles the Data">
-      <change afterPath="$PROJECT_DIR$/jobs_app/graph_analysis.py" afterDir="false" />
+    <list default="true" id="225a3f1f-cc50-452b-85ec-3c482605d2f8" name="Default" comment="Cleaned up views.py">
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/CIBC/CM_2009-12-02T19-19-20_835421.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/CIBC/CM_2015-08-09T15-42-49_41026030.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/CIBC/CM_2016-05-26T15-15-28_55599504.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/CIBC/CM_2017-08-03T14-29-43_90838924.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/CIBC/CM_2017-10-31T20-22-05_99673810.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/CIBC/CM_2017-11-17T19-39-56_101926556.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/CIBC/CM_2018-05-23T20-34-28_124561977.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2015-12-20T19-55-40_47112475.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2015-12-21T19-23-32_47151122.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2015-12-23T19-57-01_47269576.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2015-12-23T20-28-22_47271746.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2015-12-27T23-27-21_47337004.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2016-01-02T09-36-06_47531597.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2016-01-11T18-56-30_47970909.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2016-01-15T07-57-13_48210832.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2016-01-18T03-13-45_48301136.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2016-02-05T10-36-13_49254296.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2016-02-05T17-58-28_49283665.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2016-02-05T19-56-36_49294440.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2016-02-08T17-19-41_49371586.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2016-02-09T20-44-04_49452142.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2016-02-09T20-55-45_49453262.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2016-02-09T21-16-42_49455584.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2016-02-09T21-30-02_49457164.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2016-02-09T21-33-08_49457535.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2016-02-09T21-38-47_49458164.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2016-02-09T21-42-41_49458553.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2016-02-09T23-15-16_49465109.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2016-02-09T23-55-06_49466940.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2016-02-10T04-40-48_49475605.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2016-02-10T13-46-33_49484359.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2016-02-10T14-49-28_49490122.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2016-02-10T15-19-01_49493895.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2016-02-10T16-14-52_49500434.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2016-02-11T16-39-32_49582131.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2016-02-11T20-46-14_49607993.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2016-02-14T12-59-59_49707394.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2016-02-17T17-47-36_49835942.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2016-02-20T01-50-05_49986674.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2016-03-07T17-24-06_50775950.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2016-03-08T15-56-29_50839462.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2016-03-10T13-42-14_50960016.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2016-03-16T00-01-14_51233770.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2016-04-04T20-59-06_52281265.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2016-04-04T22-44-22_52287631.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2016-04-05T15-29-22_52326175.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2016-04-06T12-05-50_52385222.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2016-04-12T22-52-11_52777753.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2016-04-27T14-27-50_53711963.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2016-05-05T19-26-53_54272696.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2016-05-06T14-27-26_54324339.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2016-05-08T19-12-17_54398436.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2016-05-10T21-16-44_54541337.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2016-05-10T21-23-39_54541862.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2016-05-13T00-01-35_54720412.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2016-05-17T16-04-45_54969316.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2016-05-18T16-15-35_55069175.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2016-06-03T02-33-06_55968390.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2016-06-06T13-34-21_56078572.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2016-06-08T15-18-38_56258849.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2016-06-13T14-07-12_56538208.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2016-06-16T17-34-47_56799078.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2016-07-18T23-07-31_58677934.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2016-07-20T18-11-40_58817464.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2016-08-02T14-26-25_59666212.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2016-08-02T16-27-17_59682198.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2016-08-03T00-08-36_59727011.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2016-08-05T15-48-06_59971571.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2016-08-09T20-55-40_60225434.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2016-08-11T15-30-40_60380869.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2016-08-11T17-45-37_60398039.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2016-08-18T18-55-53_60910852.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2016-08-25T08-57-52_61339618.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2016-08-26T14-06-40_61440876.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2016-08-26T19-39-33_61483134.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2016-08-28T00-37-22_61517179.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2016-09-09T02-31-25_62263535.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2016-09-12T18-38-43_62442591.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2016-09-17T00-59-31_62828788.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2016-09-19T16-55-59_62911394.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2016-09-23T18-41-33_63309412.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2016-09-26T20-09-23_63429206.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2016-09-27T13-26-36_63468767.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2016-09-29T20-02-09_63711474.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2016-09-30T14-48-24_63765745.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2016-10-04T19-04-23_63994257.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2016-10-06T12-57-58_64139560.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2016-10-06T19-13-22_64194484.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2016-10-21T16-03-41_65248982.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2016-10-24T18-56-58_65396248.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2016-10-26T01-52-03_65525731.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2016-10-26T06-45-37_65533656.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2016-10-28T17-52-41_65789043.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2016-11-10T23-16-04_66799620.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2016-11-11T12-07-03_66820363.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2016-11-11T15-53-54_66844127.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2016-11-17T05-11-34_67275911.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2016-11-17T18-33-37_67349528.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2016-11-29T00-05-46_67990830.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2016-11-29T19-41-31_68057090.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2016-12-06T03-28-38_68558209.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2016-12-07T16-58-00_68728826.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2016-12-09T17-17-42_68991752.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2016-12-11T21-48-58_69098570.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2016-12-12T20-17-57_69183825.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2016-12-14T14-32-18_69364876.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2016-12-19T13-25-56_69760999.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2017-01-03T12-44-07_70676698.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2017-01-04T22-22-06_70848701.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2017-01-13T04-10-56_71673210.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2017-01-18T14-50-34_71992959.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2017-01-21T03-38-40_72304307.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2017-01-30T20-29-21_73045503.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2017-02-03T14-46-51_73522955.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2017-02-03T19-24-41_73571974.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2017-02-07T18-48-39_73856269.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2017-02-07T21-28-16_73887978.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2017-02-13T16-53-16_74443419.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2017-02-23T22-25-23_75474438.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2017-03-02T21-59-46_76093672.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2017-03-08T17-06-25_76629842.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2017-03-20T19-25-48_77847325.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2017-04-11T20-24-31_79953392.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2017-04-13T19-49-52_80205938.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2017-04-19T02-20-58_80522290.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2017-04-25T13-30-31_81064208.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2017-05-03T18-17-21_81953213.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2017-05-10T14-09-51_82654673.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2017-05-24T21-43-51_84117431.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2017-05-29T13-59-56_84426896.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2017-05-30T13-53-19_84469199.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2017-06-17T20-30-40_86241019.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2017-06-20T19-09-07_86480416.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2017-06-26T18-45-49_87106424.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2017-07-02T20-22-08_87733082.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2017-07-25T11-44-32_89752779.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2017-07-29T04-52-31_90312892.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2017-08-06T11-57-26_91138811.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2017-08-07T17-11-30_91221799.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2017-08-08T18-27-11_91364500.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2017-08-08T20-14-15_91386907.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2017-08-08T20-38-59_91393098.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2017-08-08T23-19-56_91413168.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2017-08-09T05-34-11_91435285.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2017-08-09T16-35-18_91495359.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2017-08-09T18-05-03_91510611.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2017-08-09T19-29-33_91526214.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2017-08-31T14-54-16_93618082.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2017-08-31T16-39-42_93636601.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2017-09-06T19-51-22_94073270.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2017-09-07T15-37-53_94152144.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2017-09-07T17-10-40_94167324.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2017-09-07T17-30-09_94170611.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2017-09-07T18-18-13_94178343.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2017-09-08T18-57-13_94305760.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2017-09-21T17-46-20_95531685.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2017-09-26T13-19-34_95900032.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2017-10-02T16-56-37_96497822.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2017-10-03T15-51-53_96604353.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2017-10-13T00-25-33_97700231.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2017-10-17T17-51-15_98116442.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2017-11-03T14-28-54_100063944.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2017-11-06T20-24-18_100345072.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2017-11-06T21-13-17_100355767.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2017-11-07T16-00-16_100456737.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2017-11-09T16-23-50_100837930.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2017-11-09T23-46-50_100939385.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2017-11-10T14-48-55_101000795.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2017-11-13T11-18-41_101206995.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2017-11-25T09-00-05_102553034.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2017-12-10T01-00-45_104360334.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2017-12-16T14-41-50_105323307.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2017-12-26T18-43-38_106459621.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2017-12-27T13-38-21_106535301.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2018-01-01T07-38-45_107066348.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2018-01-08T20-14-05_108052261.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2018-01-25T05-13-51_110210894.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2018-01-26T16-35-16_110448133.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2018-01-26T18-33-31_110471238.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2018-01-27T02-42-26_110536760.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2018-02-13T10-36-59_112769677.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2018-02-13T19-20-15_112841455.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2018-02-26T20-29-08_114234294.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2018-02-27T09-39-05_114291561.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2018-02-27T15-30-52_114328767.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2018-02-27T18-23-41_114361730.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2018-02-27T21-50-30_114402526.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2018-03-09T16-59-54_115713660.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2018-03-13T18-02-22_116096541.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2018-03-20T18-43-06_116942704.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2018-03-21T16-49-42_117076634.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2018-03-23T18-25-41_117423811.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2018-03-24T11-49-26_117495804.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2018-03-30T01-49-23_118247746.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2018-04-01T14-07-03_118362100.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2018-04-03T19-07-56_118630313.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2018-04-05T07-53-50_118864614.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2018-04-09T01-42-01_119241485.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2018-04-19T13-39-37_120519065.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2018-04-24T19-45-40_121069768.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2018-04-30T15-33-02_121699497.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2018-04-30T20-37-22_121745031.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2018-05-06T12-13-01_122455125.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2018-05-06T20-53-52_122469898.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2018-05-07T14-11-22_122513784.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2018-05-07T15-15-37_122525386.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2018-05-08T01-37-14_122604456.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2018-05-08T17-48-53_122692572.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2018-05-08T19-56-53_122717731.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2018-05-08T20-08-16_122720735.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2018-05-08T20-52-47_122731006.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2018-05-09T00-42-49_122757024.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2018-05-09T09-36-40_122779281.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2018-05-09T21-34-50_122907504.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2018-05-10T06-20-13_122945558.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2018-05-13T04-43-23_123300902.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2018-05-17T13-51-04_123808440.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2018-05-23T22-48-55_124577804.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2018-05-26T10-46-57_124889006.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2018-05-31T16-30-30_125329300.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2018-06-01T20-48-24_125527442.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2018-06-07T15-22-02_126118512.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2018-06-14T14-00-16_126901716.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2018-06-20T13-57-22_127546947.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2018-06-20T15-52-07_127573874.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS/DIS_2018-06-21T14-34-21_127716446.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/DIS_master_data.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/NIKE/NKE_2015-07-23T14-02-37_40143680.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/NIKE/NKE_2015-07-29T02-57-43_40433037.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/NIKE/NKE_2015-08-13T16-07-33_41275090.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/NIKE/NKE_2015-08-27T08-55-56_41942105.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/NIKE/NKE_2015-09-24T20-18-46_43125875.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/NIKE/NKE_2015-09-25T14-09-03_43153893.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/NIKE/NKE_2015-09-25T20-10-00_43182930.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/NIKE/NKE_2015-09-28T16-07-38_43241016.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/NIKE/NKE_2015-10-19T12-29-16_44111441.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/NIKE/NKE_2015-11-19T18-12-07_45685227.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/NIKE/NKE_2015-12-22T18-30-29_47203992.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/NIKE/NKE_2015-12-24T12-51-50_47291263.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/NIKE/NKE_2016-01-09T08-11-05_47900753.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/NIKE/NKE_2016-02-01T19-27-43_49014633.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/NIKE/NKE_2016-03-02T14-37-00_50523020.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/NIKE/NKE_2016-03-16T13-43-57_51253134.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/NIKE/NKE_2016-03-21T18-11-00_51510561.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/NIKE/NKE_2016-03-22T20-23-16_51587711.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/NIKE/NKE_2016-03-22T20-25-30_51587910.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/NIKE/NKE_2016-03-22T20-31-48_51588511.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/NIKE/NKE_2016-03-23T04-12-00_51607298.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/NIKE/NKE_2016-03-24T20-11-04_51737975.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/NIKE/NKE_2016-04-28T00-01-34_53767173.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/NIKE/NKE_2016-04-29T16-11-49_53912258.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/NIKE/NKE_2016-06-07T03-37-40_56138191.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/NIKE/NKE_2016-06-28T04-44-01_57468025.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/NIKE/NKE_2016-06-28T21-38-07_57529944.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/NIKE/NKE_2016-07-18T01-48-27_58611033.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/NIKE/NKE_2016-08-28T17-11-36_61526153.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/NIKE/NKE_2016-09-05T16-29-47_61982860.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/NIKE/NKE_2016-09-08T20-20-07_62243865.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/NIKE/NKE_2016-09-24T12-03-05_63343591.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/NIKE/NKE_2016-09-26T00-35-12_63373031.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/NIKE/NKE_2016-09-27T16-24-15_63493090.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/NIKE/NKE_2016-10-06T14-06-21_64149828.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/NIKE/NKE_2016-10-13T12-15-22_64618534.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/NIKE/NKE_2016-10-25T12-39-22_65438915.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/NIKE/NKE_2016-11-01T15-58-52_65982457.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/NIKE/NKE_2016-11-03T04-59-56_66170118.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/NIKE/NKE_2016-12-05T13-21-29_68477680.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/NIKE/NKE_2016-12-16T16-12-48_69632582.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/NIKE/NKE_2016-12-19T19-03-09_69802301.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/NIKE/NKE_2016-12-20T21-15-20_69920454.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/NIKE/NKE_2016-12-20T21-38-49_69923534.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/NIKE/NKE_2016-12-21T19-32-19_70006545.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/NIKE/NKE_2016-12-21T20-13-07_70012543.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/NIKE/NKE_2016-12-21T21-39-12_70026247.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/NIKE/NKE_2016-12-30T15-35-04_70560757.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/NIKE/NKE_2017-03-22T15-07-31_78053865.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/NIKE/NKE_2017-03-22T15-43-00_78059925.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/NIKE/NKE_2017-03-22T19-19-30_78091874.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/NIKE/NKE_2017-03-24T14-54-49_78289176.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/NIKE/NKE_2017-06-30T18-19-45_87649161.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/NIKE/NKE_2017-07-19T21-17-17_89291040.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/NIKE/NKE_2017-07-20T14-00-25_89342782.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/NIKE/NKE_2017-08-31T06-34-58_93583223.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/NIKE/NKE_2017-09-25T14-32-54_95797802.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/NIKE/NKE_2017-11-18T17-46-32_101986853.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/NIKE/NKE_2017-11-25T09-35-59_102553256.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/NIKE/NKE_2018-01-10T18-01-51_108397150.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/NIKE/NKE_2018-02-13T17-15-33_112821330.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/NIKE/NKE_2018-02-22T01-46-35_113771407.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/NIKE/NKE_2018-02-28T00-33-22_114424904.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/NIKE/NKE_2018-03-03T10-07-04_114937184.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/NIKE/NKE_2018-03-12T16-31-49_115932540.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/NIKE/NKE_2018-03-18T15-00-31_116681417.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/NIKE/NKE_2018-04-30T14-00-02_121684064.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/NIKE/NKE_2018-05-03T10-32-56_122108684.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/NIKE/NKE_2018-05-11T17-46-31_123200837.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/NIKE/NKE_2018-05-17T13-56-37_123809982.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/NIKE/NKE_2018-06-01T21-39-33_125533304.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/NIKE/NKE_2018-06-06T18-27-14_125996836.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2009-09-08T10-35-11_547019.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2010-06-29T12-48-21_1541918.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2010-11-19T02-10-19_2138711.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2011-01-05T22-54-56_2450496.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2011-03-09T16-49-34_3078139.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2011-03-23T01-21-28_3212174.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2011-05-09T12-09-28_3721912.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2011-05-27T14-39-01_3919779.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2011-06-07T13-17-58_3999199.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2011-07-01T17-12-29_4246712.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2011-08-09T03-42-59_4731223.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2011-10-07T19-42-21_5362030.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2011-11-02T13-17-48_5651766.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2011-11-11T12-13-02_5770249.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2011-12-13T13-42-13_6080432.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2012-01-10T05-25-43_6328010.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2012-01-23T13-24-48_6484444.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2012-02-03T18-44-23_6682598.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2012-02-16T14-15-43_6865132.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2012-02-27T20-00-27_7001888.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2012-04-01T23-04-59_7460359.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2012-04-10T13-48-56_7538972.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2012-04-17T15-57-52_7620802.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2012-05-07T14-46-28_7877951.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2012-05-15T13-29-14_7979516.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2012-05-25T17-13-38_8136691.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2012-06-06T07-55-02_8236909.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2012-07-17T17-38-43_8709139.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2012-08-13T22-49-54_9093980.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2012-08-27T01-31-53_9273102.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2012-09-26T01-09-14_9685743.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2012-11-08T16-03-21_10435289.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2012-12-03T12-51-49_10799190.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-01-02T05-52-24_11232594.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-01-08T14-44-24_11334674.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-01-11T18-27-04_11418619.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-01-15T03-53-09_11462523.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-01-17T15-08-16_11524357.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-01-18T20-21-16_11564036.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-01-23T01-08-10_11610588.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-01-25T15-15-53_11685555.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-01-28T13-40-14_11720575.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-01-29T14-33-43_11748351.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-02-01T19-19-54_11844539.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-02-04T22-33-59_11877753.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-02-06T16-29-02_11914576.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-02-07T12-25-09_11931559.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-02-08T15-13-19_11961739.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-02-13T01-43-16_12029400.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-02-14T04-10-41_12055788.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-02-15T02-16-09_12081226.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-02-17T17-00-21_12111765.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-02-19T23-33-55_12141594.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-02-20T13-55-56_12147494.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-02-20T23-26-51_12167754.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-02-21T00-05-05_12168236.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-02-21T12-41-10_12172768.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-02-21T20-06-29_12190009.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-02-25T07-10-28_12228225.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-02-28T10-41-02_12309977.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-03-01T15-47-33_12345620.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-03-05T04-09-53_12387384.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-03-08T00-41-36_12452949.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-03-11T02-47-04_12479055.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-03-13T15-13-54_12524444.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-03-15T05-08-12_12565202.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-03-16T17-06-13_12587428.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-03-19T13-49-06_12619190.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-03-20T15-57-46_12646643.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-03-21T21-36-01_12677307.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-03-25T09-56-21_12711155.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-03-28T00-28-46_12768459.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-04-01T02-34-21_12803048.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-04-03T00-35-12_12841429.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-04-04T21-34-29_12883882.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-04-05T17-09-29_12898408.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-04-09T13-24-48_12935460.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-04-11T09-17-59_12976734.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-04-15T20-12-25_13043328.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-04-23T16-35-13_13171761.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-04-25T17-28-47_13230183.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-04-29T12-24-25_13272156.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-05-06T17-03-02_13406149.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-05-08T21-16-18_13463008.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-05-10T16-43-49_13508387.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-05-14T09-46-41_13548851.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-05-14T13-16-04_13551538.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-05-14T17-04-59_13562110.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-05-15T10-02-13_13576854.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-05-16T13-56-51_13610745.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-05-19T02-45-01_13656268.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-05-21T17-19-23_13695102.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-05-21T18-35-33_13697417.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-05-21T20-39-22_13701391.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-05-22T15-43-57_13715081.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-05-23T15-39-38_13741609.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-05-25T17-47-34_13776697.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-05-28T23-35-15_13804497.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-05-30T19-09-31_13850560.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-05-31T14-41-06_13865450.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-06-04T20-02-10_13930025.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-06-07T19-11-56_13997450.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-06-11T03-12-35_14029338.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-06-11T13-56-35_14034234.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-06-12T19-22-27_14068177.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-06-14T19-15-34_14116021.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-06-18T10-40-38_14145660.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-06-18T15-28-50_14152480.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-06-21T13-00-57_14222633.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-06-26T04-13-27_14293053.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-07-01T09-38-01_14380862.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-07-09T13-20-16_14486117.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-07-15T19-09-44_14596043.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-07-22T14-15-41_14709399.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-07-24T18-46-04_14769815.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-07-30T15-08-14_14870037.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-08-01T11-20-33_14918192.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-08-05T23-33-50_14999280.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-08-06T17-00-20_15013542.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-08-12T17-55-00_15134926.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-08-16T20-08-32_15257584.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-08-20T18-31-12_15308552.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-08-23T14-21-07_15378816.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-08-27T21-30-46_15451324.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-09-03T05-20-51_15539201.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-09-06T06-33-22_15616791.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-09-10T20-26-07_15706554.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-09-13T20-04-53_15798552.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-09-20T23-42-03_15962413.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-09-29T03-35-20_16141945.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-10-08T04-41-21_16328480.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-10-14T16-35-49_16472104.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-10-19T01-03-54_16625312.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-10-23T14-50-19_16719861.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-10-26T03-40-49_16816369.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-10-30T22-57-04_16945892.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-10-31T14-14-52_16961222.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-11-01T11-54-31_16992503.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-11-02T04-33-57_17024476.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-11-05T23-02-31_17105714.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-11-08T03-34-21_17203166.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-11-11T17-29-10_17270766.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-11-12T18-01-21_17306908.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-11-13T18-14-27_17347648.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-11-14T14-40-18_17376058.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-11-14T17-57-30_17388347.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-11-15T12-45-08_17410904.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-11-15T17-27-32_17425663.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-11-16T04-34-17_17442931.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-11-18T12-56-16_17461793.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-11-18T20-01-44_17481825.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-11-20T19-10-20_17554337.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-11-23T00-09-05_17642065.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-11-26T01-47-31_17691429.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-12-02T12-08-47_17805435.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-12-02T17-19-40_17817101.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-12-04T16-45-18_17885060.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-12-04T17-58-12_17888857.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-12-09T12-54-00_18003834.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-12-09T18-59-11_18020172.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-12-13T11-11-31_18151775.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-12-14T12-19-48_18185545.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-12-22T15-12-25_18390328.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-12-23T19-48-45_18420001.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-12-27T08-15-23_18485220.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-12-27T11-39-47_18485986.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2013-12-31T23-10-35_18583660.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-01-01T22-17-04_18590784.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-01-06T06-37-15_18684344.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-01-06T18-29-25_18704162.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-01-07T20-50-50_18753201.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-01-07T21-50-27_18756452.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-01-08T18-17-00_18788827.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-01-08T19-41-15_18794239.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-01-09T02-48-36_18809263.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-01-09T04-38-50_18810796.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-01-10T16-15-10_18874471.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-01-12T06-37-57_18912243.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-01-15T19-45-20_19046052.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-01-16T14-41-56_19073436.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-01-18T22-08-19_19162530.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-01-19T07-08-37_19165208.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-01-21T16-04-07_19201841.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-01-21T16-45-15_19204451.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-01-22T16-37-07_19247127.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-01-22T19-09-45_19257555.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-01-23T21-07-03_19316782.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-01-24T01-39-21_19324772.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-01-27T16-51-39_19410115.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-01-27T19-00-00_19418695.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-01-28T18-08-52_19463644.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-01-28T18-52-51_19465961.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-02-01T22-43-58_19640317.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-02-02T19-19-53_19647816.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-02-04T17-11-45_19703562.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-02-04T17-19-22_19704064.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-02-05T15-45-00_19738236.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-02-05T17-41-23_19745272.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-02-06T13-32-05_19775575.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-02-06T14-07-01_19777085.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-02-07T01-53-07_19810983.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-02-07T05-30-21_19814449.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-02-08T18-57-23_19858776.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-02-09T22-23-57_19867702.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-02-12T11-21-19_19952449.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-02-12T13-38-44_19954950.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-02-13T15-09-07_20005685.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-02-13T17-31-46_20016823.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-02-16T20-05-42_20096188.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-02-17T16-42-05_20103140.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-02-20T15-19-18_20205252.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-02-21T15-34-42_20250520.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-02-25T16-42-17_20357732.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-02-25T18-08-22_20363499.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-03-03T14-20-34_20560164.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-03-03T16-11-08_20568325.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-03-06T06-56-14_20689319.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-03-06T13-08-42_20692607.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-03-11T18-47-46_20887033.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-03-12T19-40-50_20950510.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-03-19T06-03-26_21158926.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-03-19T12-26-05_21161397.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-03-24T18-43-21_21333888.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-03-25T06-30-56_21348558.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-03-26T00-56-31_21393502.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-03-26T04-39-22_21397595.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-03-28T15-06-39_21519111.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-03-28T15-48-06_21522111.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-04-01T14-47-55_21614927.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-04-02T12-29-05_21651879.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-04-11T04-40-24_21956595.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-04-11T13-30-22_21963148.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-04-19T23-50-30_22177472.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-04-21T13-56-47_22189465.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-05-01T10-12-57_22537252.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-05-01T12-12-31_22539251.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-05-07T22-33-44_22750230.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-05-09T15-56-01_22818414.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-05-14T13-24-57_22933558.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-05-14T13-49-35_22935249.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-05-16T16-27-12_23030126.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-05-17T13-46-19_23049319.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-05-23T02-22-52_23198002.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-05-24T19-49-49_23235953.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-05-30T12-22-04_23368539.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-05-31T14-23-55_23400101.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-06-07T22-31-56_23602496.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-06-08T18-33-15_23607193.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-06-12T18-13-16_23749404.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-06-13T14-40-00_23776174.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-06-19T00-16-52_23926302.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-06-19T15-30-05_23947070.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-06-23T18-38-08_24044521.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-06-24T14-47-54_24068544.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-06-30T18-46-24_24259063.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-07-01T05-29-16_24272615.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-07-08T18-14-04_24464167.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-07-09T22-33-30_24512145.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-07-15T18-22-00_24667792.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-07-16T04-14-43_24686345.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-07-26T06-40-01_25064461.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-07-26T17-17-16_25067720.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-07-31T13-37-10_25234531.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-07-31T13-42-28_25235081.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-08-01T13-24-04_25289936.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-08-01T14-01-02_25292685.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-08-08T14-22-22_25532307.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-08-08T16-45-47_25542033.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-08-13T19-49-27_25714758.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-08-14T02-31-34_25728348.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-08-20T22-20-48_25962854.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-08-21T22-51-35_26007920.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-09-02T09-56-56_26287039.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-09-03T05-57-34_26328787.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-09-09T22-21-03_26587070.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-09-10T13-19-26_26602543.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-09-16T14-05-31_26828591.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-09-16T14-24-25_26830205.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-09-17T12-19-55_26871860.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-09-17T12-33-03_26872314.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-09-17T23-51-23_26911922.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-09-18T02-14-08_26914941.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-09-21T18-20-30_27034534.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-09-22T18-41-50_27066991.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-09-30T19-40-32_27379599.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-10-01T14-17-02_27409446.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-10-09T13-00-15_27743936.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-10-09T17-16-49_27765737.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-10-15T14-23-31_27995722.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-10-16T12-51-27_28054521.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-10-22T10-02-07_28275962.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-10-22T16-39-02_28296067.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-10-28T01-58-27_28488871.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-10-29T14-15-49_28563689.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-10-31T14-43-22_28679706.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-10-31T18-35-03_28696755.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-11-06T14-56-51_28904836.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-11-06T19-14-22_28925080.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-11-13T13-33-37_29180307.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-11-13T22-54-07_29224759.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-11-18T14-59-43_29355418.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-11-18T15-19-04_29357467.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-11-20T14-57-27_29458131.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-11-20T21-06-43_29487371.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-11-25T14-13-59_29607245.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-11-25T16-36-05_29617759.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-12-01T16-11-39_29757374.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-12-01T18-59-35_29767714.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-12-04T17-19-35_29896550.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-12-04T23-40-26_29919908.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-12-08T14-02-15_29991823.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-12-08T22-16-55_30023398.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-12-11T21-59-36_30166476.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-12-12T15-55-07_30190148.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-12-16T14-02-05_30294016.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-12-16T20-35-37_30322669.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-12-17T21-58-24_30381337.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-12-17T22-05-42_30381672.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-12-18T13-50-43_30397411.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-12-18T15-00-35_30402474.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-12-18T21-39-16_30433218.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-12-18T22-22-31_30435453.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-12-19T17-52-28_30474459.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-12-19T18-49-02_30478513.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-12-20T19-11-15_30507644.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-12-20T19-56-31_30508176.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-12-22T20-06-51_30555471.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-12-23T00-21-40_30566304.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-12-23T20-03-31_30602713.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-12-24T07-02-08_30617859.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-12-24T17-37-39_30633776.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-12-24T17-44-09_30634182.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-12-24T22-09-19_30640417.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-12-24T23-48-42_30641356.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-12-26T02-34-33_30649903.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-12-26T03-20-42_30650224.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-12-26T12-50-57_30653526.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-12-26T12-56-07_30653579.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-12-27T01-08-53_30674697.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-12-27T14-14-37_30677889.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-12-29T18-57-28_30708990.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-12-29T19-27-34_30710001.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-12-31T19-57-45_30788495.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2014-12-31T23-31-24_30796166.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-01-05T00-46-05_30866298.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-01-05T19-02-58_30896332.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-01-07T14-05-41_30982388.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-01-07T14-36-30_30984156.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-01-08T21-41-10_31073447.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-01-09T11-27-48_31089006.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-01-14T12-01-13_31271488.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-01-14T22-31-58_31320659.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-01-18T02-23-42_31456945.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-01-18T03-18-06_31457390.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-01-21T17-21-54_31560208.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-01-22T12-37-15_31593976.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-01-27T20-19-31_31826123.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-01-28T13-49-34_31861052.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-02-03T12-33-31_32131897.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-02-03T17-29-14_32154345.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-02-04T13-40-41_32201465.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-02-04T14-20-40_32203987.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-02-04T16-22-30_32216916.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-02-04T16-33-49_32218043.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-02-05T15-17-34_32281131.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-02-05T16-06-45_32285780.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-02-10T17-42-55_32486318.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-02-11T02-15-15_32518217.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-02-17T17-40-20_32771129.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-02-17T19-33-50_32780711.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-02-19T07-05-58_32866377.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-02-19T13-40-44_32873110.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-02-25T10-41-32_33134104.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-02-25T16-43-57_33156500.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-03-02T16-31-38_33389368.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-03-02T19-24-18_33402712.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-03-05T15-33-41_33568575.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-03-05T18-46-11_33586110.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-03-11T16-38-17_33849931.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-03-12T17-30-35_33919345.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-03-17T13-31-46_34109781.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-03-17T15-25-30_34121525.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-03-19T17-24-03_34260187.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-03-20T01-23-32_34285149.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-03-31T10-51-15_34752768.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-03-31T16-44-19_34776601.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-04-07T10-11-04_35016775.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-04-07T21-48-09_35060015.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-04-10T19-36-46_35234702.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-04-12T23-20-28_35270531.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-04-16T01-08-44_35442897.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-04-16T14-55-16_35465646.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-04-20T06-01-07_35582929.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-04-20T18-31-32_35614486.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-04-23T21-57-03_35828596.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-04-24T14-53-48_35860281.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-04-30T01-42-42_36139221.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-04-30T06-48-30_36145117.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-05-05T14-09-16_36373213.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-05-06T15-18-53_36451383.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-05-15T20-50-01_36984034.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-05-16T15-18-13_36998319.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-05-25T07-49-05_37350467.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-05-26T18-25-36_37392244.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-06-02T12-20-01_37670295.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-06-02T13-47-27_37675700.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-06-09T10-48-54_37987104.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-06-09T13-44-10_37995190.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-06-12T17-33-26_38206418.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-06-15T11-56-07_38255285.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-06-17T12-46-13_38371474.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-06-17T13-08-33_38372632.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-06-21T00-54-31_38566109.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-06-21T18-55-59_38573442.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-06-24T10-42-35_38711032.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-06-24T22-30-10_38762075.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-06-30T13-13-22_39004034.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-06-30T13-29-08_39005177.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-07-02T11-24-04_39124480.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-07-02T17-45-11_39153514.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-07-08T11-10-43_39350650.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-07-08T19-19-53_39390946.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-07-13T17-04-52_39603055.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-07-13T18-42-52_39610173.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-07-17T04-47-23_39830910.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-07-17T10-28-10_39834018.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-07-21T14-02-04_39994570.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-07-21T17-01-32_40011468.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-07-24T11-03-50_40208420.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-07-24T13-30-11_40216889.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-07-27T20-47-00_40347262.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-07-28T15-00-34_40383861.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-07-30T14-15-02_40527099.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-07-30T15-54-59_40537911.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-08-03T10-49-04_40669942.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-08-03T12-27-54_40671938.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-08-06T12-13-23_40891445.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-08-06T17-56-23_40915903.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-08-11T13-44-29_41117112.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-08-11T14-16-26_41120888.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-08-12T20-18-19_41229544.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-08-13T13-12-08_41258129.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-08-16T22-39-55_41396678.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-08-17T11-14-02_41404804.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-08-19T18-05-54_41541841.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-08-20T12-22-28_41576111.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-08-22T14-40-14_41711227.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-08-24T04-13-23_41743172.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-08-25T20-30-37_41861371.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-08-26T10-36-55_41883009.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-08-31T10-29-10_42084890.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-08-31T13-24-05_42089307.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-09-02T14-16-05_42203494.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-09-02T18-18-38_42222208.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-09-04T15-23-49_42317867.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-09-04T16-08-38_42320630.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-09-08T21-55-21_42417152.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-09-09T03-36-17_42425664.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-09-11T15-01-10_42560460.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-09-11T18-43-13_42576391.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-09-15T13-06-26_42667366.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-09-15T14-03-47_42671362.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-09-17T13-23-24_42774174.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-09-17T14-47-47_42781580.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-09-19T15-44-45_42887440.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-09-21T10-54-24_42911947.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-09-24T01-04-10_43074589.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-09-24T13-36-12_43089647.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-09-29T13-37-52_43287616.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-09-29T18-37-06_43312064.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-10-03T16-15-07_43512243.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-10-05T03-11-08_43528539.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-10-06T18-04-11_43609854.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-10-07T10-58-52_43637861.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-10-10T14-29-14_43804602.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-10-13T01-42-19_43861408.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-10-19T17-51-50_44132840.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-10-20T12-05-54_44160502.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-10-22T14-51-15_44293559.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-10-22T15-44-50_44298662.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-10-27T14-26-37_44495303.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-10-28T07-35-50_44552023.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-10-29T15-03-09_44642466.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-10-29T15-27-33_44644722.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-11-02T14-22-25_44780614.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-11-02T15-23-50_44786096.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-11-09T15-36-32_45152751.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-11-09T16-11-24_45155876.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-11-16T21-54-58_45522053.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-11-17T19-59-17_45568892.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-11-23T15-39-53_45809062.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-11-23T21-43-08_45838370.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-11-30T11-42-59_46033252.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-11-30T17-07-18_46051860.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-12-06T03-48-59_46355835.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-12-07T17-40-38_46399951.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-12-11T14-36-38_46650440.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-12-12T16-27-29_46709470.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-12-16T23-30-06_46932541.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-12-17T08-10-58_46943518.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-12-22T17-58-18_47201452.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2015-12-23T03-18-40_47231015.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-01-01T19-33-32_47525661.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-01-04T05-05-46_47554914.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-01-06T14-30-26_47690014.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-01-06T15-43-30_47698470.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-01-08T19-45-25_47876866.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-01-09T00-36-56_47894376.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-01-14T22-27-42_48197453.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-01-15T09-12-38_48211547.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-01-21T16-50-11_48481037.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-01-22T01-55-16_48515003.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-01-26T13-24-10_48672126.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-01-26T15-35-34_48683034.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-01-28T21-45-23_48869626.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-01-28T22-12-33_48871671.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-01-29T17-39-05_48920192.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-01-29T18-00-37_48922170.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-02-03T11-26-54_49112010.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-02-03T14-31-42_49119843.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-02-08T19-59-24_49384328.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-02-09T13-28-42_49412107.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-02-16T06-39-34_49743769.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-02-17T14-18-49_49815737.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-02-22T19-57-16_50054425.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-02-23T09-53-31_50081130.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-02-28T21-51-20_50374599.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-02-29T01-39-51_50378524.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-03-07T15-37-40_50765286.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-03-08T14-06-12_50826700.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-03-14T04-31-59_51112058.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-03-14T13-46-08_51122055.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-03-16T02-49-59_51238978.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-03-16T08-56-45_51243257.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-03-18T11-23-09_51390106.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-03-18T14-37-49_51404326.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-03-22T16-41-43_51566636.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-03-22T18-16-47_51575608.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-03-25T13-06-06_51758210.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-03-27T22-40-57_51796398.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-04-01T17-42-07_52147586.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-04-02T13-23-38_52188303.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-04-08T13-02-27_52549143.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-04-08T19-48-45_52593234.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-04-13T02-25-35_52785310.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-04-13T18-44-37_52838250.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-04-18T20-41-27_53151954.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-04-19T00-06-55_53164031.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-04-21T14-54-44_53371557.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-04-21T15-12-44_53373991.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-04-25T01-30-51_53540950.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-04-25T12-00-55_53549225.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-04-28T12-04-02_53785940.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-04-28T13-16-33_53791587.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-04-30T18-31-16_53961840.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-05-02T12-53-40_53993311.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-05-06T21-08-49_54366422.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-05-09T01-31-12_54404663.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-05-12T13-12-58_54650125.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-05-12T13-25-15_54651312.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-05-17T10-40-09_54934884.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-05-17T15-37-39_54965633.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-05-22T23-43-14_55314977.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-05-23T12-01-19_55326115.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-05-25T18-32-01_55535211.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-05-25T19-50-27_55544777.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-05-31T17-44-03_55801428.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-06-01T02-04-03_55830087.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-06-06T13-36-32_56078803.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-06-06T14-27-34_56085159.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-06-10T18-30-01_56459632.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-06-11T06-03-10_56487732.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-06-14T21-55-04_56656700.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-06-15T19-59-52_56728318.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-06-22T19-43-14_57136401.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-06-23T13-14-43_57170572.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-06-29T15-09-35_57571273.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-06-29T18-05-58_57590832.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-07-01T13-58-56_57737580.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-07-05T11-22-24_57848859.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-07-12T13-27-18_58267428.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-07-12T16-27-42_58289878.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-07-18T17-38-25_58650579.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-07-18T18-32-39_58655453.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-07-25T10-22-34_59069904.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-07-25T16-09-20_59096783.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-07-29T04-21-13_59443884.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-07-29T08-13-48_59447528.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-07-29T14-47-08_59470631.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-07-29T16-40-20_59485946.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-08-03T12-27-27_59745492.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-08-03T18-07-59_59790299.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-08-10T03-27-13_60250782.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-08-10T11-39-32_60259686.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-08-14T14-52-14_60555990.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-08-15T11-03-12_60577710.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-08-21T03-09-32_61047488.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-08-22T02-45-09_61067787.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-08-24T15-20-41_61269743.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-08-24T16-29-49_61279105.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-08-26T19-11-57_61479642.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-08-29T02-22-21_61535544.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-09-01T13-59-32_61795903.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-09-01T16-55-20_61820555.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-09-07T12-37-51_62082691.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-09-07T13-07-18_62085073.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-09-07T19-33-17_62134852.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-09-07T19-42-27_62136362.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-09-08T21-02-44_62247561.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-09-08T21-28-00_62249388.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-09-12T20-53-49_62456428.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-09-13T13-56-00_62487841.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-09-16T14-12-10_62767902.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-09-16T14-54-11_62774766.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-09-21T20-23-42_63127971.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-09-21T23-21-25_63141147.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-09-27T05-21-19_63457011.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-09-27T15-53-45_63489137.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-10-04T20-12-57_64003581.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-10-05T13-05-04_64039884.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-10-07T10-51-06_64236159.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-10-07T15-11-00_64263031.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-10-13T00-59-55_64602543.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-10-13T09-29-48_64614121.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-10-13T19-27-55_64675096.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-10-14T10-58-35_64708721.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-10-17T16-33-20_64862985.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-10-17T18-29-40_64874071.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-10-19T18-22-03_65054190.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-10-20T08-26-06_65108433.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-10-24T04-32-52_65345552.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-10-24T12-10-13_65352604.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-10-26T11-53-35_65540797.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-10-26T13-55-56_65552831.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-10-28T13-31-51_65748718.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-10-28T15-14-16_65766316.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-10-31T14-41-42_65880179.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-10-31T15-21-37_65884479.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-11-01T15-14-43_65977026.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-11-01T19-07-17_66007575.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-11-07T12-02-45_66428764.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-11-07T15-04-49_66442437.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-11-09T14-34-43_66635530.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-11-09T19-36-54_66673537.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-11-17T12-25-17_67285059.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-11-17T22-57-48_67388594.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-11-23T20-25-16_67792157.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-11-25T02-35-02_67835373.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-11-28T19-41-26_67968769.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-11-28T22-29-40_67986343.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-12-02T17-04-56_68368395.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-12-03T16-52-54_68428390.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-12-09T12-33-53_68943619.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-12-09T17-03-49_68988974.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-12-16T20-07-33_69668035.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-12-18T16-22-09_69732258.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-12-27T00-19-11_70272285.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-12-27T12-54-10_70282246.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-12-30T21-18-41_70602035.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2016-12-31T19-24-37_70626105.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2017-01-05T19-14-41_70937713.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2017-01-05T22-06-45_70962132.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2017-01-12T01-07-47_71527960.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2017-01-12T12-49-36_71553448.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2017-01-16T23-06-00_71859501.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2017-01-17T14-24-53_71886993.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2017-01-20T14-32-50_72224356.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2017-01-21T12-44-02_72311280.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2017-01-26T18-19-43_72759428.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2017-01-26T19-54-07_72772885.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2017-01-31T23-36-36_73205703.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2017-02-01T13-22-53_73240737.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2017-02-02T17-15-55_73416376.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2017-02-03T16-41-19_73545989.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2017-02-12T20-23-42_74379762.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2017-02-13T15-35-49_74428659.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2017-02-24T11-15-02_75505674.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2017-02-26T22-45-13_75644640.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2017-03-03T20-43-01_76224750.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2017-03-06T18-58-44_76385107.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2017-03-17T20-54-04_77688833.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2017-03-19T21-41-44_77759090.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2017-03-29T22-26-43_78761249.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2017-03-30T18-11-28_78851269.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2017-04-10T18-05-11_79805626.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2017-04-11T13-20-40_79877596.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2017-04-21T10-33-52_80775850.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2017-04-21T12-24-34_80781079.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2017-04-23T19-12-46_80919604.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2017-04-24T05-17-14_80938299.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2017-04-28T10-19-21_81446276.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2017-04-28T10-22-12_81446352.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2017-05-01T17-50-12_81671921.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2017-05-02T15-28-10_81780296.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2017-05-11T16-14-55_82844958.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2017-05-11T19-24-06_82881918.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2017-05-19T15-57-01_83689032.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2017-05-22T11-35-48_83807111.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2017-05-29T11-36-20_84424298.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2017-05-29T13-05-37_84425650.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2017-05-31T18-32-34_84624049.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2017-06-01T12-26-39_84684351.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2017-06-05T15-41-23_85015756.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2017-06-06T13-42-42_85113088.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2017-06-09T18-25-01_85554616.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2017-06-09T21-25-58_85586710.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2017-06-13T02-45-21_85765176.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2017-06-13T12-00-06_85776927.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2017-06-15T11-22-03_85996936.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2017-06-15T15-54-39_86035416.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2017-06-19T14-37-21_86305857.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2017-06-19T16-01-54_86319258.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2017-06-23T15-12-24_86878486.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2017-06-24T04-18-01_86970253.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2017-06-30T16-02-01_87627797.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2017-07-01T08-34-48_87697322.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2017-07-07T21-26-13_88187308.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2017-07-09T14-43-36_88241286.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2017-07-17T00-33-05_88943431.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2017-07-17T14-11-21_88973295.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2017-07-25T05-49-28_89745309.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2017-07-25T22-35-23_89856290.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2017-07-31T16-50-12_90431795.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2017-07-31T20-18-57_90465407.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2017-08-01T13-07-02_90517852.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2017-08-01T14-01-00_90528425.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2017-08-03T16-19-46_90864430.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2017-08-04T15-47-57_91020873.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2017-08-11T14-58-26_91791688.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2017-08-12T14-43-59_91881415.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2017-08-21T13-03-07_92641878.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2017-08-21T14-16-00_92652332.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2017-08-31T13-30-14_93599632.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2017-09-01T00-03-10_93691258.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2017-09-06T18-02-38_94057843.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2017-09-07T14-15-52_94136725.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2017-09-13T11-53-29_94628711.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2017-09-14T00-49-25_94748626.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2017-09-19T14-44-38_95234764.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2017-09-19T17-12-26_95260462.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2017-09-26T01-21-19_95874802.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2017-09-26T14-58-36_95919304.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2017-09-29T19-02-08_96349109.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2017-10-01T20-30-15_96434101.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2017-10-06T20-28-17_97078293.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2017-10-07T22-12-20_97122099.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2017-10-14T22-24-08_97871529.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2017-10-15T01-34-30_97876050.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2017-10-22T19-59-58_98646564.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2017-10-23T23-36-00_98765674.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2017-10-30T16-04-04_99495858.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2017-10-30T17-00-23_99504656.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2017-10-31T10-45-43_99577344.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2017-10-31T11-01-08_99577991.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2017-10-31T13-07-10_99589766.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2017-10-31T13-22-01_99591836.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2017-10-31T14-34-31_99608508.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2017-10-31T14-44-24_99610626.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2017-10-31T18-13-31_99649162.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2017-10-31T18-46-01_99655152.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2017-11-01T09-44-39_99716205.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2017-11-01T12-30-01_99725512.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2017-11-06T14-44-56_100276887.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2017-11-06T17-09-34_100309664.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2017-11-11T14-30-27_101128933.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2017-11-12T15-14-19_101168260.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2017-11-18T00-16-19_101961321.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2017-11-19T01-07-10_102000285.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2017-11-24T22-22-23_102535738.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2017-11-26T21-42-10_102607730.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2017-11-30T18-46-23_103181642.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2017-12-01T01-44-13_103239912.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2017-12-07T14-32-47_104006376.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2017-12-08T13-09-17_104169100.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2017-12-15T19-45-18_105250462.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2017-12-17T08-33-05_105380009.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2017-12-21T16-40-13_106016968.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2017-12-22T16-16-53_106194003.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2018-01-03T00-30-40_107234357.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2018-01-05T12-18-19_107641807.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2018-01-09T15-23-33_108163538.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2018-01-09T18-07-24_108200485.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2018-01-11T22-20-46_108631680.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2018-01-12T15-29-28_108719976.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2018-01-16T18-37-58_109086501.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2018-01-18T02-15-55_109335058.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2018-01-23T18-48-13_109965536.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2018-01-23T19-11-11_109969981.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2018-01-24T03-46-34_110038221.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2018-01-24T14-57-23_110081102.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2018-01-26T00-13-06_110361824.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2018-01-26T17-18-16_110456610.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2018-01-30T15-39-26_110849257.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2018-01-30T18-56-08_110889109.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2018-02-01T15-03-43_111203162.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2018-02-01T15-53-18_111216863.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2018-02-02T05-06-31_111362574.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2018-02-02T07-33-52_111370212.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2018-02-02T13-42-44_111394867.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2018-02-02T13-57-08_111397561.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2018-02-02T15-31-33_111424396.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2018-02-02T16-01-19_111433050.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2018-02-02T22-49-51_111524704.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2018-02-03T02-38-41_111544698.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2018-02-06T01-17-55_111826641.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2018-02-06T17-02-03_111929257.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2018-02-08T23-57-49_112340826.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2018-02-09T15-38-24_112414898.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2018-02-14T16-00-45_112961963.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2018-02-15T14-25-01_113104236.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2018-02-19T01-26-38_113450215.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2018-02-20T15-51-34_113549713.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2018-02-23T14-51-15_113960774.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2018-02-23T23-27-36_114046462.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2018-03-01T01-49-37_114605784.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2018-03-01T16-07-32_114675296.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2018-03-08T07-10-38_115476871.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2018-03-08T18-01-10_115553081.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2018-03-12T14-30-41_115910834.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2018-03-12T18-21-27_115950289.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2018-03-19T00-03-42_116703256.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2018-03-19T01-33-19_116707462.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2018-03-20T12-34-57_116869831.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2018-03-20T18-08-52_116936262.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2018-03-25T22-37-54_117564744.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2018-03-27T08-31-09_117740755.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2018-04-01T18-53-22_118372105.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2018-04-02T11-52-58_118402109.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2018-04-04T20-52-16_118818012.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2018-04-05T15-37-37_118914614.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2018-04-12T07-13-21_119680031.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2018-04-12T20-06-04_119781726.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2018-04-18T06-21-56_120326292.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2018-04-18T12-45-17_120348017.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2018-04-24T00-20-36_120959337.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2018-04-24T17-01-51_121039330.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2018-04-26T20-05-01_121392236.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2018-04-26T21-23-06_121408249.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2018-04-27T11-03-35_121456633.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2018-04-27T11-33-59_121458917.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2018-04-27T12-58-59_121468417.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2018-04-27T13-15-23_121470761.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2018-04-27T15-00-14_121493733.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2018-04-27T16-04-11_121505751.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2018-04-27T21-56-44_121557524.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2018-04-28T14-36-41_121587929.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2018-05-02T18-55-05_122026656.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2018-05-03T14-51-56_122150919.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2018-05-08T06-54-24_122617997.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2018-05-09T19-11-17_122876762.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2018-05-15T19-06-03_123558445.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2018-05-16T03-57-04_123620704.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2018-05-22T11-22-01_124310940.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2018-05-22T12-38-27_124318257.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2018-05-23T19-19-36_124545909.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2018-05-24T01-05-46_124589154.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2018-06-01T22-04-08_125535580.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2018-06-03T22-25-55_125622440.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2018-06-07T05-18-59_126065403.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2018-06-07T23-07-39_126199337.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2018-06-12T17-11-49_126646364.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2018-06-13T11-51-44_126730094.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2018-06-17T22-24-24_127210252.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2018-06-18T03-51-58_127221042.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2018-06-19T18-19-16_127437938.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY/SNE_2018-06-20T17-57-16_127597527.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twitter_Data/SONY_master_data.p" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stock_Twits/process_tweets.py" beforeDir="false" afterPath="$PROJECT_DIR$/Stock_Twits/process_tweets.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Zacks/zacks.py" beforeDir="false" afterPath="$PROJECT_DIR$/Zacks/fetch_zacks_and_update_db.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jobs_app/templates/jobs_app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/jobs_app/templates/jobs_app/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Zacks/fetch_zacks_and_update_db.py" beforeDir="false" afterPath="$PROJECT_DIR$/Zacks/fetch_zacks_and_update_db.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jobs_app/tweets_analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/jobs_app/tweets_analysis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jobs_app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/jobs_app/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jobs_app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/jobs_app/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jobs_app/zacks_analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/jobs_app/zacks_analysis.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,8 +1187,8 @@
       <file leaf-file-name="fetch_zacks_and_update_db.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Zacks/fetch_zacks_and_update_db.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+            <state relative-caret-position="1890">
+              <caret line="126" column="55" selection-start-line="126" selection-start-column="55" selection-end-line="126" selection-end-column="55" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
               </folding>
@@ -34,8 +1199,8 @@
       <file leaf-file-name="process_tweets.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Stock_Twits/process_tweets.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+            <state relative-caret-position="13">
+              <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -46,11 +1211,23 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jobs_app/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="5" selection-end-column="19" />
+            <state relative-caret-position="282">
+              <caret line="76" column="75" lean-forward="true" selection-start-line="76" selection-start-column="75" selection-end-line="76" selection-end-column="75" />
               <folding>
-                <element signature="e#1#46#0" expanded="true" />
-                <marker date="1530325017824" expanded="true" signature="2177:2220" ph="..." />
+                <element signature="e#0#45#0" expanded="true" />
+                <marker date="1530405398335" expanded="true" signature="1729:1772" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tweets_analysis.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/jobs_app/tweets_analysis.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1018">
+              <caret line="68" column="2" lean-forward="true" selection-start-line="68" selection-start-column="2" selection-end-line="68" selection-end-column="2" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -71,23 +1248,8 @@
       <file leaf-file-name="zacks_analysis.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jobs_app/zacks_analysis.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-              <folding>
-                <element signature="e#1#20#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tweets_analysis.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/jobs_app/tweets_analysis.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
-              <folding>
-                <element signature="e#1#20#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="270">
+              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -95,7 +1257,7 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jobs_app/templates/jobs_app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
+            <state relative-caret-position="1605">
               <caret line="107" column="20" selection-start-line="107" selection-start-column="20" selection-end-line="107" selection-end-column="20" />
             </state>
           </provider>
@@ -113,8 +1275,8 @@
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jobs_app/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="120">
+              <caret line="8" column="68" selection-start-line="8" selection-start-column="68" selection-end-line="8" selection-end-column="68" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
@@ -193,19 +1355,20 @@
         <option value="$PROJECT_DIR$/Zacks/Dividends" />
         <option value="$PROJECT_DIR$/Zacks/csv_to_mongo_db.py" />
         <option value="$PROJECT_DIR$/Zacks/zacks.py" />
-        <option value="$PROJECT_DIR$/jobs_app/urls.py" />
         <option value="$PROJECT_DIR$/jobs_site/settings.py" />
         <option value="$PROJECT_DIR$/Stock_Twits/tweets_analysis.py" />
         <option value="$PROJECT_DIR$/Stock_Twits/process_tweets.py" />
-        <option value="$PROJECT_DIR$/jobs_app/zacks_analysis.py" />
         <option value="$PROJECT_DIR$/jobs_app/templates/jobs_app/index.html" />
-        <option value="$PROJECT_DIR$/jobs_app/views.py" />
         <option value="$PROJECT_DIR$/jobs_app/graph_analysis.py" />
+        <option value="$PROJECT_DIR$/jobs_app/views.py" />
+        <option value="$PROJECT_DIR$/Zacks/fetch_zacks_and_update_db.py" />
+        <option value="$PROJECT_DIR$/jobs_app/zacks_analysis.py" />
+        <option value="$PROJECT_DIR$/jobs_app/urls.py" />
         <option value="$PROJECT_DIR$/jobs_app/tweets_analysis.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds">
     <option name="x" value="184" />
     <option name="y" value="94" />
     <option name="width" value="1440" />
@@ -223,35 +1386,6 @@
             <path>
               <item name="Rakit" type="b2602c69:ProjectViewProjectNode" />
               <item name="Rakit" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Rakit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Rakit" type="462c0819:PsiDirectoryNode" />
-              <item name="jobs_app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Rakit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Rakit" type="462c0819:PsiDirectoryNode" />
-              <item name="jobs_app" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Rakit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Rakit" type="462c0819:PsiDirectoryNode" />
-              <item name="jobs_app" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Rakit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Rakit" type="462c0819:PsiDirectoryNode" />
-              <item name="jobs_app" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Rakit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Rakit" type="462c0819:PsiDirectoryNode" />
-              <item name="Stock_Twits" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Rakit" type="b2602c69:ProjectViewProjectNode" />
@@ -290,8 +1424,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.graph_analysis">
-    <configuration name="common" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.tweets_analysis">
+    <configuration name="fetch_zacks_and_update_db" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="jobs_site" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -299,11 +1433,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pandas/io" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Zacks" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pandas/io/common.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Zacks/fetch_zacks_and_update_db.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -383,18 +1517,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.process_tweets" />
-      <item itemvalue="Python.common" />
       <item itemvalue="Python.tweets_analysis" />
       <item itemvalue="Python.zacks_analysis" />
       <item itemvalue="Python.graph_analysis" />
+      <item itemvalue="Python.fetch_zacks_and_update_db" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.tweets_analysis" />
+        <item itemvalue="Python.fetch_zacks_and_update_db" />
         <item itemvalue="Python.graph_analysis" />
         <item itemvalue="Python.zacks_analysis" />
-        <item itemvalue="Python.tweets_analysis" />
         <item itemvalue="Python.process_tweets" />
-        <item itemvalue="Python.common" />
       </list>
     </recent_temporary>
   </component>
@@ -465,7 +1599,14 @@
       <option name="project" value="LOCAL" />
       <updated>1530323244871</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Cleaned up views.py">
+      <created>1530325500188</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1530325500188</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TodoView" selected-index="3">
@@ -478,46 +1619,72 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="184" y="94" width="1440" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4981685" visible="true" weight="0.18675123" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4981685" weight="0.18675123" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32848486" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3260606" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32848486" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32848486" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.35636362" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3474359" />
       <window_info id="Structure" order="1" sideWeight="0.50183153" side_tool="true" weight="0.24242425" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32848486" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.47272727" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.47272727" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3260606" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32848486" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32848486" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4981685" visible="true" weight="0.18675123" />
       <window_info id="Structure" order="1" sideWeight="0.50183153" side_tool="true" weight="0.24242425" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32848486" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3260606" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.35636362" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.47272727" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32848486" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32848486" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3260606" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info id="Favorites" order="2" side_tool="true" />
     </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -531,7 +1698,8 @@
     <MESSAGE value="Updated proccess_tweets, it consolidated all data given a symbol, and then writes the data into a mongoDB" />
     <MESSAGE value="Update - completed monthly analysis of twitter data, returns a bootstrapped table on a per monthly base twitter analysis given a stock symbol. Provided that the stock symbol exits inside Twitter_data db (local pymongo database)" />
     <MESSAGE value="Update for Twitter analysis, front-end now it displays a table with a monthly breakdown of bearish, bullish and bull tweets. Provided a stock symbol" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update for Twitter analysis, front-end now it displays a table with a monthly breakdown of bearish, bullish and bull tweets. Provided a stock symbol" />
+    <MESSAGE value="Cleaned up views.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cleaned up views.py" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -539,13 +1707,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/jobs_app/templates/jobs_app/404.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="7" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jobs_site_venv/lib/python3.5/site-packages/django/views/defaults.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="305">
@@ -664,9 +1825,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-178">
           <caret line="41" column="55" selection-start-line="41" selection-start-column="55" selection-end-line="41" selection-end-column="55" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -740,9 +1898,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
-          <folding>
-            <element signature="e#633#665#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -770,13 +1925,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jobs_app/urls.py">
+    <entry file="file://$PROJECT_DIR$/jobs_app/static/images/Bands.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Zacks/fetch_zacks_and_update_db.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="1890">
+          <caret line="126" column="55" selection-start-line="126" selection-start-column="55" selection-end-line="126" selection-end-column="55" />
           <folding>
-            <element signature="e#0#32#0" expanded="true" />
+            <element signature="e#0#21#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jobs_app/templates/jobs_app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1605">
+          <caret line="107" column="20" selection-start-line="107" selection-start-column="20" selection-end-line="107" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -787,44 +1952,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Zacks/fetch_zacks_and_update_db.py">
+    <entry file="file://$PROJECT_DIR$/jobs_app/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        <state relative-caret-position="120">
+          <caret line="8" column="68" selection-start-line="8" selection-start-column="68" selection-end-line="8" selection-end-column="68" />
           <folding>
-            <element signature="e#0#21#0" expanded="true" />
+            <element signature="e#0#32#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Stock_Twits/process_tweets.py">
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pandas/core/reshape/merge.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jobs_app/templates/jobs_app/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="107" column="20" selection-start-line="107" selection-start-column="20" selection-end-line="107" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jobs_app/static/images/Bands.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jobs_app/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="5" selection-end-column="19" />
-          <folding>
-            <element signature="e#1#46#0" expanded="true" />
-            <marker date="1530325017824" expanded="true" signature="2177:2220" ph="..." />
-          </folding>
+        <state relative-caret-position="176">
+          <caret line="240" selection-start-line="240" selection-end-line="240" />
         </state>
       </provider>
     </entry>
@@ -840,20 +1981,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/jobs_app/zacks_analysis.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+        <state relative-caret-position="270">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Stock_Twits/process_tweets.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13">
+          <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
           <folding>
-            <element signature="e#1#20#0" expanded="true" />
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jobs_app/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="76" column="75" lean-forward="true" selection-start-line="76" selection-start-column="75" selection-end-line="76" selection-end-column="75" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+            <marker date="1530405398335" expanded="true" signature="1729:1772" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jobs_app/tweets_analysis.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+        <state relative-caret-position="1018">
+          <caret line="68" column="2" lean-forward="true" selection-start-line="68" selection-start-column="2" selection-end-line="68" selection-end-column="2" />
           <folding>
-            <element signature="e#1#20#0" expanded="true" />
+            <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
