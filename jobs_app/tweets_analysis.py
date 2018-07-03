@@ -81,7 +81,7 @@ def price_vs_tweets(stock,start,end):
 
     df_final['Date'].apply(lambda x: x.strftime('%Y-%m-%d'))
 
-    #df_final.set_index('Date', inplace=True)
+    df_final.set_index('Date', inplace=True)
     df_final.rename(index=str, columns={"Adj Close": "Adj_Close"}, inplace=True)
     # df_final.index = df_final.index.strftime('%Y-%m-%d')
     # df_final.index.apply(lambda x: x.strftime('%Y-%m-%d'))
@@ -91,6 +91,13 @@ def price_vs_tweets(stock,start,end):
     print(df_final)
     print(list(df_final))
 
+    # df_final.plot()
+    # plt.show()
+
+
+    # ax1 = df_final.bullish_occurrence.plot(grid=True, label='Bearish')
+    # plt.show()
+
     # ax.plt(df_final.Date,df_final.bearish_occurrence)
     #
     # plt.show()
@@ -99,17 +106,31 @@ def price_vs_tweets(stock,start,end):
 
 #    df_final = df_final.astype(float)
     # print(df_final.columns)
+    df_final = df_final.astype(float)
 
     # ax1 = df_final.bearish_occurrence.plot(grid=True, label='Bearish')
+    # ax2 = df_final.Adj_Close.plot(grid=True, secondary_y=True, label='Adj Close')
+    # ax1 = df_final.bullish_occurrence.plot(grid=True, label='Bullish')
+    # ax1.legend(loc=2)
+    # ax2.legend(loc=1)
+    # plt.show()
+
+
     # ax1 = df_final.bullish_occurrence.plot(grid=True, label='Bullish')
     # ax2 = df_final.Adj_Close.plot(grid=True, secondary_y=True, label='Adj Close')
     # ax1.legend(loc=2)
     # ax2.legend(loc=1)
 
-    # fig, ax1 = plt.subplots()
+    fig, ax1 = plt.subplots()
     #
-    # ax1.plot(df_final.bearish_occurrence, color='red')
-    # ax1.plot(df_final.bullish_occurrence, color='blue')
+    ax1.plot(df_final.bearish_occurrence, color='red')
+    ax1.plot(df_final.bullish_occurrence, color='blue')
+    ax2 = ax1.twinx()
+    ax2.plot(df_final.Adj_Close, color='green')
+    ax1.legend(loc=2)
+    ax2.legend(loc=1)
+
+    plt.show()
     # # ax1.tick_params(axis='y')
     # ax1.legend(loc=2)
     #
