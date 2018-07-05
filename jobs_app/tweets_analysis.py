@@ -120,17 +120,17 @@ def price_vs_tweets(stock,start,end):
     # ax2 = df_final.Adj_Close.plot(grid=True, secondary_y=True, label='Adj Close')
     # ax1.legend(loc=2)
     # ax2.legend(loc=1)
-
-    fig, ax1 = plt.subplots()
     #
-    ax1.plot(df_final.bearish_occurrence, color='red')
-    ax1.plot(df_final.bullish_occurrence, color='blue')
-    ax2 = ax1.twinx()
-    ax2.plot(df_final.Adj_Close, color='green')
-    ax1.legend(loc=2)
-    ax2.legend(loc=1)
-
-    plt.show()
+    # fig, ax1 = plt.subplots()
+    # #
+    # ax1.plot(df_final.bearish_occurrence, color='red')
+    # ax1.plot(df_final.bullish_occurrence, color='blue')
+    # ax2 = ax1.twinx()
+    # ax2.plot(df_final.Adj_Close, color='green')
+    # ax1.legend(loc=2)
+    # ax2.legend(loc=1)
+    #
+    # plt.show()
     # # ax1.tick_params(axis='y')
     # ax1.legend(loc=2)
     #
