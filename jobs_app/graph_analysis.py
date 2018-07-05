@@ -62,5 +62,5 @@ def create_bollinger_graph(stock, table):
             plt.xlabel('Date')
             plt.ylabel('Price')
             plt.grid(True)
-            plt.savefig('/Users/kamalqureshi/Desktop/Work/Rakit/jobs_app/static/images/Bands.png', format='png')
+            plt.savefig('/Users/kamalqureshi/Desktop/Work/Rakit/jobs_app/static/images/Bands.jpg', format='png')
             plt.close()

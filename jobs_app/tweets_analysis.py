@@ -18,6 +18,10 @@ else:
 import Yahoo_finance
 
 
+pd.set_option('display.max_columns', 500)
+pd.set_option('display.width', 1000)
+
+
 def create_df(cursor, occurrence, start_date, filter_type):
     list_summary = []
     for data in cursor:
@@ -50,6 +54,28 @@ def create_twitter_data_table(stock_symbol):
 
 # Do a daily analysis of bullish vs bearish
 
+
+def fetch_zack(symbol, zack_type, start):
+    client = MongoClient('localhost', 27017)
+    db = client['ZACKS']
+    db_cm = db[zack_type]
+    data = db_cm.find({'Symbol': symbol}).sort('created_at', pymongo.DESCENDING)
+
+    list_zacks = []
+
+    for x in data:
+        # print(x['Datetime'])
+        create_date = datetime.datetime.fromtimestamp(x['Datetime']/ 1000).strftime('%Y-%m-%d')
+        # print(create_date)
+        if create_date >= start:
+            list_zacks.append(x)
+            # print('true',x)
+    df = pd.DataFrame(list_zacks)
+    #print(data)
+    return df
+
+
+
 def price_vs_tweets(stock,start,end):
     listed_site = 'yahoo'
     client = MongoClient('localhost', 27017)
@@ -57,8 +83,8 @@ def price_vs_tweets(stock,start,end):
     db_cm = db[stock]
     cursor_bullish = db_cm.find({'sentiments': 'Bullish'}).sort('created_at', pymongo.DESCENDING)
     cursor_bearish = db_cm.find({'sentiments': 'Bearish'}).sort('created_at', pymongo.DESCENDING)
-    df_bearish = create_df(cursor_bearish, 'bearish_occurrence', '2018-01', '%Y-%m-%d')
-    df_bullish = create_df(cursor_bullish, 'bullish_occurrence', '2018-01', '%Y-%m-%d')
+    df_bearish = create_df(cursor_bearish, 'bearish_occurrence', '2016-01', '%Y-%m-%d')
+    df_bullish = create_df(cursor_bullish, 'bullish_occurrence', '2016-01', '%Y-%m-%d')
     df_final = pd.merge_ordered(df_bearish, df_bullish)
     df_final.fillna('0', inplace=True)
     df_final.set_index('Date', inplace=True)
@@ -83,97 +109,26 @@ def price_vs_tweets(stock,start,end):
 
     df_final.set_index('Date', inplace=True)
     df_final.rename(index=str, columns={"Adj Close": "Adj_Close"}, inplace=True)
-    # df_final.index = df_final.index.strftime('%Y-%m-%d')
-    # df_final.index.apply(lambda x: x.strftime('%Y-%m-%d'))
 
-    # df_final.index = df_final.index.split[0]
+    # print(df_final)
+    # print(list(df_final))
 
-    print(df_final)
-    print(list(df_final))
+    return df_final
 
-    # df_final.plot()
-    # plt.show()
-
-
-    # ax1 = df_final.bullish_occurrence.plot(grid=True, label='Bearish')
-    # plt.show()
-
-    # ax.plt(df_final.Date,df_final.bearish_occurrence)
+    #THIS WORKSS
+    # df_final = df_final.astype(float)
     #
-    # plt.show()
     #
-
-
-#    df_final = df_final.astype(float)
-    # print(df_final.columns)
-    df_final = df_final.astype(float)
-
-    # ax1 = df_final.bearish_occurrence.plot(grid=True, label='Bearish')
-    # ax2 = df_final.Adj_Close.plot(grid=True, secondary_y=True, label='Adj Close')
-    # ax1 = df_final.bullish_occurrence.plot(grid=True, label='Bullish')
-    # ax1.legend(loc=2)
-    # ax2.legend(loc=1)
-    # plt.show()
-
-
-    # ax1 = df_final.bullish_occurrence.plot(grid=True, label='Bullish')
-    # ax2 = df_final.Adj_Close.plot(grid=True, secondary_y=True, label='Adj Close')
-    # ax1.legend(loc=2)
-    # ax2.legend(loc=1)
-
-    fig, ax1 = plt.subplots()
-    #
-    ax1.plot(df_final.bearish_occurrence, color='red')
-    ax1.plot(df_final.bullish_occurrence, color='blue')
-    ax2 = ax1.twinx()
-    ax2.plot(df_final.Adj_Close, color='green')
-    ax1.legend(loc=2)
-    ax2.legend(loc=1)
-
-    plt.show()
-    # # ax1.tick_params(axis='y')
-    # ax1.legend(loc=2)
-    #
-    # ax2 = ax1.twinx()  # instantiate a second axes that shares the same x-axis
+    # fig, ax1 = plt.subplots()
+    # #
+    # ax1.plot(df_final.bearish_occurrence, color='red')
+    # ax1.plot(df_final.bullish_occurrence, color='blue')
+    # ax2 = ax1.twinx()
     # ax2.plot(df_final.Adj_Close, color='green')
+    # ax1.legend(loc=2)
     # ax2.legend(loc=1)
-
-    # myFmt = mdates.DateFormatter('%Y-%m-%d')
-    # ax1.xaxis.set_major_formatter(myFmt)
-
-    # df_final.index = df_final.index.strftime('%d/%m/%Y')
-
-
-    #ax1.xaxis.set_major_formatter(mdates.DateFormatter('%Y-%m-%d'))
-
-
-    # plt.gca().xaxis.set_major_formatter(plt.FixedFormatter(df_final.index.to_series().dt.strftime("%Y-%m-%d")))
-
-#    ax1.xaxis.set_major_formatter(plt.FixedFormatter(df_final.index.to_series().dt.strftime('%Y-%m-%d')))
-
-#    ax1.xaxis = mdates.DateFormatter('%Y-%m-%d')
-
-    #ax2.format_xdata = mdates.DateFormatter('%Y-%m-%d')
-
     #
-    # ax1.xaxis.set_major_formatter(mdates.DateFormatter("%Y-%m"))
-    # ax1.xaxis.set_minor_formatter(mdates.DateFormatter("%Y-%m"))
-    #
-    # ax2.xaxis.set_major_formatter(mdates.DateFormatter("%Y-%m"))
-    # ax2.xaxis.set_minor_formatter(mdates.DateFormatter("%Y-%m"))
-
-    #
-    # color = 'tab:blue'
-    # ax2.set_ylabel('sin', color=color)  # we already handled the x-label with ax1
-    # ax2.plot(t, data2, color=color)
-    # ax2.tick_params(axis='y', labelcolor=color)
-
-    # fig.tight_layout()  # otherwise the right y-label is slightly clipped
     # plt.show()
-
-    # df_final.plot()
-    # plt.show()
-
 
 
     # for index, row in df_final.iterrows():
@@ -191,22 +146,104 @@ def price_vs_tweets(stock,start,end):
     #df_final['bull_vs_bear'] = df_final['Adj Close'].eq(df_final['Adj Close'].shift())
     # if (df_final['bearish_occurrence'] > df_final['bullish_occurrence']):
     #     df_final['bull_vs_bear'] = 'bearish'
-#
-
-
-
 
 #     print(df_final)
 #     print(list(df_final))
 #
-stock = 'SNE'
 
-stk = Yahoo_finance.Stock(stock)
-listed_site = 'yahoo'
-today = date.today()
-end = date.today()
-start = today - timedelta(180)
 
-price_vs_tweets(stock,start,end)
-
-# table = create_twitter_data_table(stock_symbol)
+#THIS WORKS TOO
+# stock = 'JPM'
+#
+# stk = Yahoo_finance.Stock(stock)
+# listed_site = 'yahoo'
+# today = date.today()
+# end = date.today()
+# start = today - timedelta(800)
+#
+# # price_vs_tweets(stock,start,end)
+#
+# tweets_price = price_vs_tweets(stock,start,end)
+# tweets_price.index = pd.to_datetime(tweets_price.index)
+# print(tweets_price)
+# print('\nnext')
+#
+#
+# # print(tweets_price)
+#
+# #fetch_zack(stock,'ZACKS_dividends','2018-01-01')
+# # print(fetch_zack(stock,'ZACKS_dividends','2018-01-01'))
+# temp_zacks = fetch_zack(stock,'ZACKS_earnings','2016-01-01')
+# # print(temp_zacks)
+# # print('AFTER')
+# #print(list(temp_zacks))
+# #temp_zacks = temp_zacks['Datetime','Company', 'Estimate','Reported']
+# temp_zacks = temp_zacks.drop([ 'Company','ESP',  'Key', 'Mrk_Cap(M)', 'Price_Change', 'Report', 'Symbol', 'Time', 'Type', '_id'], axis=1)
+#
+# #temp_zacks['Datetime'] = datetime.datetime.fromtimestamp(temp_zacks['Datetime'] / 1000).strftime('%Y-%m-%d')
+# temp_zacks['Datetime'] = pd.to_datetime(temp_zacks['Datetime'], unit='ms')
+#
+# temp_zacks.rename(index=str, columns={'Datetime': 'Date'}, inplace=True)
+# temp_zacks.set_index('Date', inplace=True)
+# temp_zacks.replace('--', NaN , inplace=True)
+# print(temp_zacks)
+# print('\nnext')
+#
+# #zacks_tweets_price = pd.merge(tweets_price, temp_zacks, how='inner', left_index=True, right_index=True)
+# #zacks_tweets_price = pd.concat(tweets_price, temp_zacks)
+# zacks_tweets_price = pd.concat([tweets_price, temp_zacks], axis=0, sort=True)
+#
+# zacks_tweets_price.sort_index(axis=0, inplace=True)
+# zacks_tweets_price.index = pd.to_datetime(zacks_tweets_price.index)
+# zacks_tweets_price.index = zacks_tweets_price.index.strftime('%Y-%m-%d')
+# print(zacks_tweets_price)
+# print(list(zacks_tweets_price))
+#
+#
+# zacks_tweets_price = zacks_tweets_price.astype(float)
+# #
+# #
+# fig, ax1 = plt.subplots()
+# #
+# ax1.plot(zacks_tweets_price.bearish_occurrence, color='red')
+# ax1.plot(zacks_tweets_price.bullish_occurrence, color='blue')
+#
+# ax2 = ax1.twinx()
+# ax2.plot(zacks_tweets_price.Adj_Close, color='green')
+#
+#
+# coord_x1 = 0.5
+# coord_y1 = 5
+#
+# coord_x2 = 100
+# coord_y2 = 25
+#
+# x = 20
+# y = 25
+#
+# # plt.plot([coord_x1, coord_x2], [coord_y1, coord_y1], '-o')
+# # plt.plot('2018-02-03', y, '-o', label='earning')
+# #
+# # plt.axvline(5, color='g', linestyle='--')
+#
+# plt.plot(zacks_tweets_price.Estimate,  '-o')
+# plt.plot(zacks_tweets_price.Reported,  '-o')
+#
+# # ax2.plot(zacks_tweets_price.Estimate, color='black', '-o')
+# # ax2.plot(zacks_tweets_price.Reported, color='black', '-o')
+# # ax3 = ax1.twinx()
+# ax1.legend(loc=2)
+# ax2.legend(loc=1)
+#
+# # y=[2.56422, 3.77284,3.52623,3.51468,3.02199]
+# # z=[0.15, 0.3, 0.45, 0.6, 0.75]
+# # n=[58,651,393,203,123]
+# #
+# # fig, ax = plt.subplots()
+# # ax.scatter(z, y)
+# #
+# # for i, txt in enumerate(n):
+# #     ax.annotate(txt, (z[i],y[i]))
+# plt.show()
+#
+# # table = create_twitter_data_table(stock_symbol)
