@@ -198,15 +198,15 @@ def price_vs_tweets(stock,start,end):
 
 #     print(df_final)
 #     print(list(df_final))
+# #
+# stock = 'SNE'
 #
-stock = 'SNE'
-
-stk = Yahoo_finance.Stock(stock)
-listed_site = 'yahoo'
-today = date.today()
-end = date.today()
-start = today - timedelta(180)
-
-price_vs_tweets(stock,start,end)
-
-# table = create_twitter_data_table(stock_symbol)
+# stk = Yahoo_finance.Stock(stock)
+# listed_site = 'yahoo'
+# today = date.today()
+# end = date.today()
+# start = today - timedelta(180)
+#
+# price_vs_tweets(stock,start,end)
+#
+# # table = create_twitter_data_table(stock_symbol)
